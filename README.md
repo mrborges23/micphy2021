@@ -25,8 +25,10 @@ The meeting will include keynotes and six sessions of contributed talks, and thr
 
 ## Funding
 WWTF: Vienna Science and Technology Fund
-The meeting is sponsored by WWTF through the project Genome-wide molecular dating (MA16-061).
-[<img src="https://www.google.com/search?q=wwtf+icom&sxsrf=ALeKk03nLgP0rbwAPtmLj0F1LIEd2gL3dQ:1604929375109&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkxKvqy_XsAhUQoRQKHYPQCmUQ_AUoAXoECAwQAw&biw=1069&bih=828#imgrc=K_q4KFA_R_2FEM&imgdii=wla_eWd5P0EkFM">](http://google.com.au/)
+
+The meeting is sponsored by WWTF through the project **Genome-wide molecular dating** ([MA16-061](https://www.wwtf.at/programmes/mathematics/MA16-061/index.php?lang=EN)).
+
+
 
 
 
