@@ -3,7 +3,7 @@
 
 Lorem ipsum dolor sit amet.
 
-[button url="https://github.com/mrborges23/mic_phy_2020/blob/main/another_page.md"]
+[Click me](https://github.com/mrborges23/mic_phy_2020/blob/main/another_page.md){: .btn}
 
 You can use the [editor on GitHub](https://github.com/mrborges23/mic_phy_2020/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
