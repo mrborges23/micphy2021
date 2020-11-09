@@ -19,9 +19,9 @@ Iowa State University of Science and Technology, USA
 
 ## Important dates
 
-* XX XXX 2021 Deadline for workshop registration and abstract submission
-* XX XXX 2021 Notification of oral/poster presentation and/or workshop acceptance
-* XX XXX 2021 Registration deadline
+* 15 January 2021 Deadline for workshop registration and abstract submission
+* 1 February 2021 Notification of oral/poster presentation and/or workshop acceptance
+* 9 February 2021 Registration deadline
 
 
 ## Program
@@ -59,6 +59,13 @@ Desription
 * **Gergely Szöllősi** Eötvös Loránd University,Hungary
 * **Asger Hobolth** Aarhus University, Denmark
 * **Bastien Boussau** Université de Lyon, France
+
+## Organizers
+
+* **Carolin Kosiol** University of St Andrews, UK
+* **Rui Borges** Vetmeduni Vienna, Austria
+* **Carolina Barata** University of St Andrews, UK
+* **Lynette Mikula** University of St Andrews, UK
 
 
 ## Funding
