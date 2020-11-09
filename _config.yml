@@ -1,6 +1,9 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - LICENSE.md
 theme: jekyll-theme-cayman
-title: MIC-PHY <br/> 15th-17th February 2021
-description: The virtual MIC-Phy will be happening here!
-navbar-links:
-  About Me: "aboutme"
-  Author's home: "https://deanattali.com"
