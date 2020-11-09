@@ -47,6 +47,25 @@ Desription
 
 ## Registration
 
+Choose an Email ?
+_____
+
+Choose a password
+******
+
+Describe why you want to register
+____
+_____
+
+Gender
+male/female
+
+Which of these features will you need?
+[+] simplicity
+[-] Don't know
+[-] complete
+
+[ok]
 
 
 ## Scientific committee
@@ -71,47 +90,3 @@ The meeting is sponsored by WWTF through the project **Genome-wide molecular dat
 If you have any question about this meeting please do not hesitate to contact us: micmeeting2020(at)gmail.com 
 
 
-
-
-
-
-
-Lorem ipsum dolor sit amet.
-
-[Click me](https://github.com/mrborges23/mic_phy_2020/blob/main/another_page.md){: .btn}
-
-You can use the [editor on GitHub](https://github.com/mrborges23/mic_phy_2020/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrborges23/mic_phy_2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
