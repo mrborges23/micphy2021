@@ -53,57 +53,6 @@ Desription
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDync9SFiZ8QTe_HtMi8P47mYH2len4Xcepf-unQVGwt0aPA/viewform?embedded=true" width="640" height="1757" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
 
-<form action="https://formspree.io/f/xdopzqvq" method="POST" >
-  <br>
-  Name:<br>
-  <input type="text" name="name" value="">
-  <br>
-  Email:<br>
-  <input type="text" name="email" value="">
-  <br>
-  Affiliation:<br>
-  <input type="text" name="affil" value="">
-  <br><br>
-  Do you want to attend the workshop?: <br>
-  <input type="radio" name="presentation" value="0"> No <br>
-  <input type="radio" name="presentation" value="1"> Yes, oral presentation only <br>
-  <input type="radio" name="presentation" value="2"> Yes, oral or poster presentation <br>
-  <input type="radio" name="presentation" value="3"> Yes, poster presentation <br><br>
-
-  Abstract:<br>
-  <textarea rows="4" cols="50" name="abstract"></textarea>
-  <br><br>
-
-  Do you want to attend the workshop?: <br>
-  <input type="radio" name="workshop" value="0"> No <br>
-  <input type="radio" name="workshop" value="1"> Yes <br><br>
-  Motivation letter:<br>
-  <textarea rows="4" cols="50" name="motivation_letter"></textarea>
-
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
-<br>
-
-* **Motivation letter** <br/>
-Explain the reasons why you want to participate in the workshop. <br/>
-Preference will be given to participants that are currently performing phylogenomic analysis in real data. Limit: 250 words.
-
-
-* **Abstract** <br/>
-Please considering the following format if you intend to submit and abstract: <br/>
-
-```
-Title 
-Authors list following this format: Harry Potter [1,2], Albus Dumbledore [1] 
-Affiliation list in a single line and following this format: [1] Hogwarts school, [2] Gryffindor house 
-Abstract text here
-```
-Abstract text with no more than 250 words.<br/>
-Please do not include any pictures or references 
-
-
-
 ## Scientific committee
 
 * **Carolin Kosiol** University of St Andrews, UK
