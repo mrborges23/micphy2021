@@ -63,20 +63,20 @@ Desription
   <input type="text" name="affil" value="">
   <br><br>
   Do you want to attend the workshop?: <br>
-  <input type="radio" name="option1" value="1"> No <br>
-  <input type="radio" name="option2" value="2"> Yes, oral presentation only <br>
-  <input type="radio" name="option3" value="3"> Yes, oral or poster presentation <br>
-  <input type="radio" name="option4" value="4"> Yes, poster presentation <br>
+  <input type="radio" name="presentation" value="0"> No <br>
+  <input type="radio" name="presentation" value="1"> Yes, oral presentation only <br>
+  <input type="radio" name="presentation" value="2"> Yes, oral or poster presentation <br>
+  <input type="radio" name="presentation" value="3"> Yes, poster presentation <br><br>
 
   Abstract:<br>
-  <textarea rows="4" cols="50" name="comment"></textarea>
+  <textarea rows="4" cols="50" name="abstract"></textarea>
   <br><br>
 
   Do you want to attend the workshop?: <br>
-  <input type="radio" name="option1" value="1"> No <br>
-  <input type="radio" name="option2" value="2"> Yes <br>
+  <input type="radio" name="workshop" value="0"> No <br>
+  <input type="radio" name="workshop" value="1"> Yes <br><br>
   Motivation letter:<br>
-  <textarea rows="4" cols="50" name="comment"></textarea>
+  <textarea rows="4" cols="50" name="motivation_letter"></textarea>
 
   <br><br>
   <input type="submit" value="Submit">
