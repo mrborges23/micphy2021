@@ -48,8 +48,10 @@ Desription
 ## Registration
 
 <form action="https://formspree.io/f/xbjpynqv" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
+  <input type="Name" name="name" placeholder="Your name">
+  <input type="Email" name="email" placeholder="Your email">
+  <input type="Affiliation" name="affiliation" placeholder="Your affiliation">
+  <textarea name="message" placeholder="Your abstract" rows="3">
   <input type="submit" value="Send">
 </form>
 
