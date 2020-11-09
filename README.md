@@ -31,28 +31,34 @@ The meeting includes a workshop that will run on the XX and XX, totaling three s
 
 The workshop is free but seats are limited. Students and researchers are invited to apply by submitting a 250-words motivation letter (see Registration).
 
-* **Session 1**: RevBayes: Bayesian tree estimation
-Tutored by Sebastian Hönha 
+* **Session 1**: RevBayes: Bayesian tree estimation<br/>
+Tutored by Sebastian Hönha <br/>
 Description
 
-* **Session 2**: Bayesian Polymorphism-aware phylogenetic models
-Tutored by Rui Borges and Carolin Kosiol 
+* **Session 2**: Bayesian Polymorphism-aware phylogenetic models<br/>
+Tutored by Rui Borges and Carolin Kosiol <br/>
 Description
 
-* **Session 3**: IQ-tree PoMos
-Tutored by Dominik Schrempf
+* **Session 3**: IQ-tree PoMos<br/>
+Tutored by Dominik Schrempf<br/>
 Desription
 
 
 
 ## Registration
 
-<form method="POST" action="https://formspree.io/<YOUR_EMAIL_HERE>">
+<form method="POST" action="https://formspree.io/<micmeeting2020@gmail.com>">
+  
   <input type="email" name="email" placeholder="Your email">
+  
   <input type="text" name="name" placeholder="Your name">
+  
   <textarea name="message" placeholder="Your message" rows="3">
+  
   </textarea>
+  
   <button type="submit">Send Message</button>
+  
 </form>
 
 ## Scientific committee
