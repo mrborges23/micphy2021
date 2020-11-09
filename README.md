@@ -106,6 +106,6 @@ The meeting is sponsored by WWTF through the project **Genome-wide molecular dat
 
 ## Contacts
 
-If you have any question about this meeting please do not hesitate to contact us: micmeeting2020(at)gmail.com 
+If you have any question about this meeting please do not hesitate to contact us: micmeeting2021(at)gmail.com 
 
 
