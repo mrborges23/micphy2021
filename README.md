@@ -46,7 +46,6 @@ Desription
 
 
 ## Registration
-
 <form action="https://formspree.io/f/xbjpynqv" method="POST">
   <input type="Name" name="name" placeholder="Your name">
   <input type="Email" name="email" placeholder="Your email">
@@ -54,6 +53,7 @@ Desription
   <textarea name="message" placeholder="Your abstract" rows="3">
   <input type="submit" value="Send">
 </form>
+
 
 ## Scientific committee
 
