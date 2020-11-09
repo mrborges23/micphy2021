@@ -46,40 +46,21 @@ Desription
 
 
 ## Registration
-<form action="https://formspree.io/f/xbjpynqv" method="POST" >
 
-  <label for="fname">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-
-  <label for="lname">Email:</label><br>
-  <input type="text" id="email" name="email"><br>
-
-  <label for="lname">Affiliation:</label><br>
-  <input type="text" id="affil" name="affil"><br>
-
-
-  <label for="lname">Do you want to present your work?</label><br>
-  <input type="radio" id="Talk only." name="option1" value="0">
-  <label for="yes">Yes</label><br>
-  <input type="radio" id="Talk or Poster" name="option2" value="1">
-  <label for="No">No</label><br>
-  <input type="radio" id="Poster" name="option2" value="2">
-  <label for="No">No</label><br>
-
-  <label for="lname">Abstract:</label><br>
-  <input style="width: 300px;" type="text" id="abstract" name="abstract"><br>
-
-  <label for="lname">Do you want to attend the workshop?</label><br>
-  <input type="radio" id="Yes" name="workshop" value="1">
-  <label for="yes">Yes</label><br>
-  <input type="radio" id="No" name="workshop" value="0">
-  <label for="No">No</label><br>
-
-  <label for="lname">Motivation letter:</label><br>
-  <input style="width: 300px;" type="text" id="motivationletter" name="motivationletter"><br>
-
+<form action="" target="_blank">
+  <br>
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+  Comment:<br>
+  <textarea rows="4" cols="50" name="comment"></textarea>
+  <br><br>
   <input type="submit" value="Submit">
-</form>
+</form> 
+
 
 
 
