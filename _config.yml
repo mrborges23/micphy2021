@@ -6,3 +6,5 @@ relative_links:
 include:
   - README.md
   - LICENSE.md
+navbar-links:
+  Author's home: "https://deanattali.com"
