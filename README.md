@@ -48,23 +48,27 @@ Desription
 ## Registration
 <form action="https://formspree.io/f/xbjpynqv" method="POST" >
 
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
 
+  <label for="lname">Email:</label><br>
+  <input type="text" id="email" name="email">
 
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
+  <label for="lname">Affiliation:</label><br>
+  <input type="text" id="affil" name="affil">
 
+  <label for="lname">Do you want to attend the workshop?</label><br>
+  <input type="radio" id="Yes" name="workshop" value="1">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="workshop" value="0">
+  <label for="No">No</label><br>
 
+  <label for="lname">Motivation letter:</label><br>
+  <input type="text" id="motivationletter" name="motivationletter"><br>
 
   <input type="submit" value="Submit">
 </form>
+
 
 
 
