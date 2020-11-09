@@ -9,13 +9,48 @@ The meeting will include keynotes and six sessions of contributed talks, and thr
 
 
 ## Important dates
+
 * XX XXX 2021 Deadline for workshop registration and abstract submission
 * XX XXX 2021 Notification of oral/poster presentation and/or workshop acceptance
 * XX XXX 2021 Registration deadline
 
+## Keynote Speakers
+
+* Tracy Heath (Iowa State University of Science and Technology, USA)
+
+## Program
+
+Will be updated soon!
+
+
+## Workshop
+
+The meeting includes a workshop that will run on the XX and XX, totaling three sessions of two hours. The workshop is entitled **New approaches and methods to phylogeny inference** and will focus on the polymorphism-aware phylogeny estimation, including practical exercises based on the software IQ-TREE and RevBayes. 
+
+The workshop is free but seats are limited. Students and researchers are invited to apply by submitting a 250-words motivation letter (see Registration).
+
+* **Session 1**: RevBayes: Bayesian tree estimation (<-- two spaces)  
+Tutored by Sebastian Hönha (<-- two spaces)  
+Description
+
+* **Session 2**: Bayesian Polymorphism-aware phylogenetic models (<-- two spaces)  
+Tutored by Rui Borges and Carolin Kosiol (<-- two spaces)  
+Description
+
+* **Session 3**: IQ-tree PoMos. (<-- two spaces)  
+Tutored by Dominik Schrempf (<-- two spaces)  
+Desription
+
+ 
+
+
+
+## Registration
+
 
 
 ## Scientific committee
+
 * Carolin Kosiol (University of St Andrews)
 * Rui Borges (Vetmeduni Vienna)
 * Gergely Szöllősi (Eötvös Loránd University)
@@ -24,11 +59,16 @@ The meeting will include keynotes and six sessions of contributed talks, and thr
 
 
 ## Funding
+
 WWTF: Vienna Science and Technology Fund
 
 The meeting is sponsored by WWTF through the project **Genome-wide molecular dating** ([MA16-061](https://www.wwtf.at/programmes/mathematics/MA16-061/index.php?lang=EN)).
 
 
+
+## Contacts
+
+If you have any question about this meeting please do not hesitate to contact us: micmeeting2020(at)gmail.com 
 
 
 
