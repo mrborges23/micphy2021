@@ -47,18 +47,10 @@ Desription
 
 ## Registration
 
-<form method="POST" action="https://formspree.io/<micmeeting2020@gmail.com>">
-  
-  <input type="email" name="email" placeholder="Your email">
-  
-  <input type="text" name="name" placeholder="Your name">
-  
-  <textarea name="message" placeholder="Your message" rows="3">
-  
-  </textarea>
-  
-  <button type="submit">Send Message</button>
-  
+<form action="https://formspree.io/f/xbjpynqv" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
 </form>
 
 ## Scientific committee
