@@ -1,5 +1,17 @@
-## Welcome to GitHub Pages
+*Mathematical, Inferential and Computational Phylogenomics 2021*
 
+We are delighted to announce the meeting Mathematical, inferential and computational phylogenomics from xx to xx xxxx 2021 at Vetmeduni Vienna, Austria.
+
+Phylogenomics aims at reconstructing the evolutionary histories of organisms considering whole genomes or large fractions of genomes. The abundance of genomic data for an enormous variety of organisms has enabled phylogenomic inference of many groups, and this has motivated the development of a myriad of models and methods. The Mathematical, inferential and computational phylogenomics meeting intends to stimulate a larger debate focus on the main advances and challenges of the current phylogenetic models, methods and algorithms that are permitting to make sense of phylogenomic data.
+
+The meeting will include keynotes and six sessions of contributed talks, and three hands-on practicals to try new software. The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges in phylogenomics using large and heterogeneous sequence datasets to build species trees. Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
+
+## Important dates
+* XX XXX 2021 Deadline for workshop registration and abstract submission
+
+* XX XXX 2021 Notification of oral/poster presentation and/or workshop acceptance
+
+* XX XXX 2021 Registration deadline
 
 Lorem ipsum dolor sit amet.
 
