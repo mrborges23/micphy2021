@@ -6,6 +6,8 @@
 
 We are delighted to announce the meeting **Mathematical, Inferential and Computational Phylogenomics** from 15th to 17th February 2021. 
 
+![Benjamin Bannekat](https://unsplash.com/photos/5SjAaqqCCmY)
+
 Phylogenomics aims at reconstructing the evolutionary histories of organisms considering whole genomes or large fractions of genomes. The abundance of genomic data for an enormous variety of organisms has motivated the development of a myriad of models and methods. The **MIC-Phy** meeting intends to stimulate a larger debate focus on the main advances and challenges of the current phylogenetic models, methods and algorithms that are permitting to make sense of phylogenomic data.
 
 The meeting will include keynotes, six sessions of contributed talks, three hands-on workshop sessions and a poster session. The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges in phylogenomics using large and heterogeneous sequence datasets to build species trees. Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
