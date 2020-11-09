@@ -1,6 +1,9 @@
 theme: jekyll-theme-cayman
 title: MIC-PHY <br/> 15th-17th February 2021
 description: The virtual MIC-Phy will be happening here!
-include:
-  - README.md
-  - LICENSE.md
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
