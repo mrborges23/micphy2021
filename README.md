@@ -52,7 +52,6 @@ Desription
 ## Registration
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDync9SFiZ8QTe_HtMi8P47mYH2len4Xcepf-unQVGwt0aPA/viewform?embedded=true" width="640" height="1757" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
-
 ## Scientific committee
 
 * **Carolin Kosiol** University of St Andrews, UK
@@ -65,7 +64,6 @@ Desription
 ## Funding
 
 The meeting is sponsored by WWTF (Vienna Science and Technology Fund) through the project **Genome-wide molecular dating** ([MA16-061](https://www.wwtf.at/programmes/mathematics/MA16-061/index.php?lang=EN)).
-
 
 
 ## Contacts
