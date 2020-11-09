@@ -2,12 +2,19 @@
 
 # Mathematical, Inferential and Computational Phylogenomics 2021
 
-We are delighted to announce the meeting Mathematical, inferential and computational phylogenomics from xx to xx xxxx 2021 at Vetmeduni Vienna, Austria.
+**Due to COVID-19, MIC-Phy goes virtual.**
 
-Phylogenomics aims at reconstructing the evolutionary histories of organisms considering whole genomes or large fractions of genomes. The abundance of genomic data for an enormous variety of organisms has enabled phylogenomic inference of many groups, and this has motivated the development of a myriad of models and methods. The Mathematical, inferential and computational phylogenomics meeting intends to stimulate a larger debate focus on the main advances and challenges of the current phylogenetic models, methods and algorithms that are permitting to make sense of phylogenomic data.
+We are delighted to announce the meeting **Mathematical, Inferential and Computational Phylogenomics** from 15th to 17th February 2021. 
 
-The meeting will include keynotes and six sessions of contributed talks, and three hands-on practicals to try new software. The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges in phylogenomics using large and heterogeneous sequence datasets to build species trees. Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
+Phylogenomics aims at reconstructing the evolutionary histories of organisms considering whole genomes or large fractions of genomes. The abundance of genomic data for an enormous variety of organisms has motivated the development of a myriad of models and methods. The **MIC-Phy** meeting intends to stimulate a larger debate focus on the main advances and challenges of the current phylogenetic models, methods and algorithms that are permitting to make sense of phylogenomic data.
 
+The meeting will include keynotes, six sessions of contributed talks, three hands-on workshop sessions and a poster session. The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges in phylogenomics using large and heterogeneous sequence datasets to build species trees. Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
+
+
+## Keynote Speakers
+
+* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath)
+Iowa State University of Science and Technology, USA
 
 
 ## Important dates
@@ -15,11 +22,6 @@ The meeting will include keynotes and six sessions of contributed talks, and thr
 * XX XXX 2021 Deadline for workshop registration and abstract submission
 * XX XXX 2021 Notification of oral/poster presentation and/or workshop acceptance
 * XX XXX 2021 Registration deadline
-
-## Keynote Speakers
-
-* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath)
-Iowa State University of Science and Technology, USA
 
 
 ## Program
@@ -60,13 +62,22 @@ Desription
   Affiliation:<br>
   <input type="text" name="affil" value="">
   <br><br>
-  I want to present my work:
-  <input type="radio" name="option1" value="0"> Oral <br>
-  <input type="radio" name="option2" value="1"> Oral or poster <br>
-  <input type="radio" name="option3" value="2"> Poster <br>
+  Do you want to attend the workshop?:
+  <input type="radio" name="option1" value="1"> No <br>
+  <input type="radio" name="option2" value="2"> Yes, oral presentation only <br>
+  <input type="radio" name="option3" value="3"> Yes, oral or poster presentation <br>
+  <input type="radio" name="option4" value="4"> Yes, poster presentation <br>
 
   Abstract:<br>
   <textarea rows="4" cols="50" name="comment"></textarea>
+  <br><br>
+
+  Do you want to attend the workshop?:
+  <input type="radio" name="option1" value="1"> No <br>
+  <input type="radio" name="option2" value="2"> Yes <br>
+  Motivation letter:<br>
+  <textarea rows="4" cols="50" name="comment"></textarea>
+
   <br><br>
   <input type="submit" value="Submit">
 </form> 
