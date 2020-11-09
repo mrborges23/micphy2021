@@ -1,4 +1,4 @@
-*Mathematical, Inferential and Computational Phylogenomics 2021*
+# Mathematical, Inferential and Computational Phylogenomics 2021
 
 We are delighted to announce the meeting Mathematical, inferential and computational phylogenomics from xx to xx xxxx 2021 at Vetmeduni Vienna, Austria.
 
@@ -6,12 +6,33 @@ Phylogenomics aims at reconstructing the evolutionary histories of organisms con
 
 The meeting will include keynotes and six sessions of contributed talks, and three hands-on practicals to try new software. The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges in phylogenomics using large and heterogeneous sequence datasets to build species trees. Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
 
+
+
 ## Important dates
 * XX XXX 2021 Deadline for workshop registration and abstract submission
-
 * XX XXX 2021 Notification of oral/poster presentation and/or workshop acceptance
-
 * XX XXX 2021 Registration deadline
+
+
+
+## Scientific committee
+* Carolin Kosiol (University of St Andrews)
+* Rui Borges (Vetmeduni Vienna)
+* Gergely Szöllősi (Eötvös Loránd University)
+* Asger Hobolth (Aarhus University)
+* Bastien Boussau (Université de Lyon)
+
+
+## Funding
+WWTF: Vienna Science and Technology Fund
+The meeting is sponsored by WWTF through the project Genome-wide molecular dating (MA16-061).
+[<img src="https://www.google.com/search?q=wwtf+icom&sxsrf=ALeKk03nLgP0rbwAPtmLj0F1LIEd2gL3dQ:1604929375109&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkxKvqy_XsAhUQoRQKHYPQCmUQ_AUoAXoECAwQAw&biw=1069&bih=828#imgrc=K_q4KFA_R_2FEM&imgdii=wla_eWd5P0EkFM">](http://google.com.au/)
+
+
+
+
+
+
 
 Lorem ipsum dolor sit amet.
 
