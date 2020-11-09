@@ -67,7 +67,7 @@ Desription
   <label for="No">No</label><br>
 
   <label for="lname">Abstract:</label><br>
-  <input type="text" id="abstract" name="abstract"><br>
+  <input style="width: 300px;" type="text" id="abstract" name="abstract"><br>
 
   <label for="lname">Do you want to attend the workshop?</label><br>
   <input type="radio" id="Yes" name="workshop" value="1">
@@ -76,7 +76,7 @@ Desription
   <label for="No">No</label><br>
 
   <label for="lname">Motivation letter:</label><br>
-  <input type="text" id="motivationletter" name="motivationletter"><br>
+  <input style="width: 300px;" type="text" id="motivationletter" name="motivationletter"><br>
 
   <input type="submit" value="Submit">
 </form>
