@@ -51,7 +51,7 @@ Desription
 
 ## Registration
 
-<form action="https://formspree.io/f/xbjpynqv" method="POST" >
+<form action="https://formspree.io/f/xdopzqvq" method="POST" >
   <br>
   Name:<br>
   <input type="text" name="name" value="">
