@@ -16,7 +16,9 @@ The meeting will include keynotes and six sessions of contributed talks, and thr
 
 ## Keynote Speakers
 
-* Tracy Heath (Iowa State University of Science and Technology, USA)
+* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath)
+Iowa State University of Science and Technology, USA
+
 
 ## Program
 
@@ -29,50 +31,21 @@ The meeting includes a workshop that will run on the XX and XX, totaling three s
 
 The workshop is free but seats are limited. Students and researchers are invited to apply by submitting a 250-words motivation letter (see Registration).
 
-* **Session 1**: RevBayes: Bayesian tree estimation (<-- two spaces)  
-Tutored by Sebastian Hönha (<-- two spaces)  
+* **Session 1**: RevBayes: Bayesian tree estimation
+Tutored by Sebastian Hönha 
 Description
 
-* **Session 2**: Bayesian Polymorphism-aware phylogenetic models (<-- two spaces)  
-Tutored by Rui Borges and Carolin Kosiol (<-- two spaces)  
+* **Session 2**: Bayesian Polymorphism-aware phylogenetic models
+Tutored by Rui Borges and Carolin Kosiol 
 Description
 
-* **Session 3**: IQ-tree PoMos. (<-- two spaces)  
-Tutored by Dominik Schrempf (<-- two spaces)  
+* **Session 3**: IQ-tree PoMos
+Tutored by Dominik Schrempf
 Desription
-
- 
 
 
 
 ## Registration
-
-!form: Form Header Name
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Choose an *email*?:  ______________
-Choose a *password*: ***___________
-
-Describe why you want to register:
-[________________________________]
-[________________________________]{description}
-
-*Gender*: [ "male" / "female" ]
-
-Which of these *features* will you need?:
-* [X] simplicity
-* [ ] Don't know
-* [ ] complete
-
-Radio Button. Which *pet* do you want most?:
-* (X) cat
-* ( ) dog
-* ( ) bird
-
-          [>>  OK   <<] [!! RESET !!]
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-{action="MAILTO:someone@example.com" method="post" enctype="text/plain"}
 
 
 ## Scientific committee
