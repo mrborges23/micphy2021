@@ -62,7 +62,7 @@ Desription
   Affiliation:<br>
   <input type="text" name="affil" value="">
   <br><br>
-  Do you want to attend the workshop?:
+  Do you want to attend the workshop?: <br>
   <input type="radio" name="option1" value="1"> No <br>
   <input type="radio" name="option2" value="2"> Yes, oral presentation only <br>
   <input type="radio" name="option3" value="3"> Yes, oral or poster presentation <br>
@@ -72,7 +72,7 @@ Desription
   <textarea rows="4" cols="50" name="comment"></textarea>
   <br><br>
 
-  Do you want to attend the workshop?:
+  Do you want to attend the workshop?: <br>
   <input type="radio" name="option1" value="1"> No <br>
   <input type="radio" name="option2" value="2"> Yes <br>
   Motivation letter:<br>
@@ -81,20 +81,24 @@ Desription
   <br><br>
   <input type="submit" value="Submit">
 </form> 
-
+<br><br>
 
 * **Motivation letter** <br/>
-Explain the reasons why you want to participate in the workshop. Preference will be given to participants that are currently performing phylogenomic analysis in real data. Limit: 250 words.
+Explain the reasons why you want to participate in the workshop. <br/>
+Preference will be given to participants that are currently performing phylogenomic analysis in real data. Limit: 250 words.
 
 
 * **Abstract** <br/>
-If you are considering submit an abstract, please format it according to our specifications: <br/>
-Title <br/>
-Authors list following this format: Harry Potter [1,2], Albus Dumbledore [1] <br/>
-Affiliation list in a single line and following this format: [1] Hogwarts school, [2] Gryffindor house  <br/>
-Abstract text with no more than 250 words; do not include any pictures or references <br/>
+Please considering the following format if you intend to submit and abstract: <br/>
 
-
+```
+Title 
+Authors list following this format: Harry Potter [1,2], Albus Dumbledore [1] 
+Affiliation list in a single line and following this format: [1] Hogwarts school, [2] Gryffindor house 
+Abstract text here
+```
+Abstract text with no more than 250 words.<br/>
+Please do not include any pictures or references 
 
 
 
@@ -109,14 +113,12 @@ Abstract text with no more than 250 words; do not include any pictures or refere
 
 ## Funding
 
-WWTF: Vienna Science and Technology Fund
-
-The meeting is sponsored by WWTF through the project **Genome-wide molecular dating** ([MA16-061](https://www.wwtf.at/programmes/mathematics/MA16-061/index.php?lang=EN)).
+The meeting is sponsored by WWTF (Vienna Science and Technology Fund) through the project **Genome-wide molecular dating** ([MA16-061](https://www.wwtf.at/programmes/mathematics/MA16-061/index.php?lang=EN)).
 
 
 
 ## Contacts
 
-If you have any question about this meeting please do not hesitate to contact us: micmeeting2021(at)gmail.com 
+In case you have any questions please contact us via **micmeeting2021(at)gmail.com**.
 
 
