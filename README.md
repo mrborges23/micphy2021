@@ -81,7 +81,7 @@ Desription
   <br><br>
   <input type="submit" value="Submit">
 </form> 
-<br><br>
+<br>
 
 * **Motivation letter** <br/>
 Explain the reasons why you want to participate in the workshop. <br/>
