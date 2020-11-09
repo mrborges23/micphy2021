@@ -1,6 +1,3 @@
----
-title: This will be used as the title-tag of the page head
----
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mrborges23/mic_phy_2020/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
