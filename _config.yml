@@ -3,8 +3,17 @@ title: MIC-PHY <br/> 15th-17th February 2021
 description: The virtual MIC-Phy will be happening here!
 navigation:
   - title: Home
-    url: /
+    url: README
   - title: Setup
-    url: LICENSE
+    url: https://github.com/mrborges23/micphy2021/blob/main/LICENSE.html
 
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
 
