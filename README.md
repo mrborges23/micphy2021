@@ -1,5 +1,10 @@
 ## Welcome to GitHub Pages
 
+
+Lorem ipsum dolor sit amet.
+
+[button url="https://github.com/mrborges23/mic_phy_2020/blob/main/another_page.md"]
+
 You can use the [editor on GitHub](https://github.com/mrborges23/mic_phy_2020/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
