@@ -47,20 +47,39 @@ Desription
 
 ## Registration
 
-<form action="" target="_blank">
+<form action="https://formspree.io/f/xbjpynqv" method="POST" >
   <br>
-  First name:<br>
-  <input type="text" name="firstname" value="">
+  Name:<br>
+  <input type="text" name="name" value="">
   <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="">
+  Email:<br>
+  <input type="text" name="email" value="">
+  <br>
+  Affiliation:<br>
+  <input type="text" name="affil" value="">
   <br><br>
-  Comment:<br>
+  I want to present my work:
+  <input type="radio" name="option1" value="0"> Oral <br>
+  <input type="radio" name="option2" value="1"> Oral or poster <br>
+  <input type="radio" name="option3" value="2"> Poster <br>
+
+  Abstract:<br>
   <textarea rows="4" cols="50" name="comment"></textarea>
   <br><br>
   <input type="submit" value="Submit">
 </form> 
 
+
+* **Motivation letter** <br/>
+Explain the reasons why you want to participate in the workshop. Preference will be given to participants that are currently performing phylogenomic analysis in real data. Limit: 250 words.
+
+
+* **Abstract** <br/>
+If you are considering submit an abstract, please format it according to our specifications: <br/>
+Title <br/>
+Authors list following this format: Harry Potter [1,2], Albus Dumbledore [1] <br/>
+Affiliation list in a single line and following this format: [1] Hogwarts school, [2] Gryffindor house  <br/>
+Abstract text with no more than 250 words; do not include any pictures or references <br/>
 
 
 
