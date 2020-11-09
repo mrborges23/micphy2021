@@ -1,18 +1,10 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: MIC-PHY <br/> 15th-17th February 2021
 description: The virtual MIC-Phy will be happening here!
-
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
-  - LICENSE.md
-
 navigation:
   - title: Home
     url: /
   - title: Setup
-    url: setup
+    url: LICENCE
+
+
