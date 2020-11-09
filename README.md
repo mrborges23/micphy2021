@@ -52,15 +52,27 @@ Desription
   <input type="text" id="name" name="name"><br>
 
   <label for="lname">Email:</label><br>
-  <input type="text" id="email" name="email">
+  <input type="text" id="email" name="email"><br>
 
   <label for="lname">Affiliation:</label><br>
-  <input type="text" id="affil" name="affil">
+  <input type="text" id="affil" name="affil"><br>
+
+
+  <label for="lname">Do you want to present your work?</label><br>
+  <input type="radio" id="Talk only." name="option1" value="0">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="Talk or Poster" name="option2" value="1">
+  <label for="No">No</label><br>
+  <input type="radio" id="Poster" name="option2" value="2">
+  <label for="No">No</label><br>
+
+  <label for="lname">Abstract:</label><br>
+  <input type="text" id="abstract" name="abstract"><br>
 
   <label for="lname">Do you want to attend the workshop?</label><br>
   <input type="radio" id="Yes" name="workshop" value="1">
   <label for="yes">Yes</label><br>
-  <input type="radio" id="no" name="workshop" value="0">
+  <input type="radio" id="No" name="workshop" value="0">
   <label for="No">No</label><br>
 
   <label for="lname">Motivation letter:</label><br>
@@ -68,6 +80,7 @@ Desription
 
   <input type="submit" value="Submit">
 </form>
+
 
 
 
