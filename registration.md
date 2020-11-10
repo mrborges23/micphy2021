@@ -1,11 +1,7 @@
 ## Registration
 
 The registration is free but compulsory. Registration deadline: 9th February 2021.
-
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDync9SFiZ8QTe_HtMi8P47mYH2len4Xcepf-unQVGwt0aPA/viewform?embedded=true" width="640" height="1757" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-
-
+Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bootom of this page.
 
 <form name="submit-to-google-sheet">
   <br>
@@ -19,18 +15,18 @@ The registration is free but compulsory. Registration deadline: 9th February 202
   <input type="text" name="affiliation" value="">
   <br><br>
   Do you want to attend the workshop?: <br>
-  <input type="radio" name="question1" value="0"> No <br>
-  <input type="radio" name="question1" value="1"> Yes, oral presentation only <br>
-  <input type="radio" name="question1" value="2"> Yes, oral or poster presentation <br>
-  <input type="radio" name="question1" value="3"> Yes, poster presentation <br><br>
+  <input type="radio" name="question1" value="1"> No <br>
+  <input type="radio" name="question1" value="2"> Yes, oral presentation only <br>
+  <input type="radio" name="question1" value="3"> Yes, oral or poster presentation <br>
+  <input type="radio" name="question1" value="4"> Yes, poster presentation <br><br>
 
   Abstract:<br>
   <textarea rows="4" cols="50" name="abstract"></textarea>
   <br><br>
 
   Do you want to attend the workshop?: <br>
-  <input type="radio" name="workshop" value="0"> No <br>
-  <input type="radio" name="workshop" value="1"> Yes <br><br>
+  <input type="radio" name="workshop" value="1"> No <br>
+  <input type="radio" name="workshop" value="2"> Yes <br><br>
   Motivation letter:<br>
   <textarea rows="4" cols="50" name="letter"></textarea>
 
@@ -38,11 +34,6 @@ The registration is free but compulsory. Registration deadline: 9th February 202
   <button type="submit">Send</button>
 </form> 
 <br>
-
-
-
-
-
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyJClSf277gOQYgH2cxLkYSe6uXDj_1AE-Zl-0qc5YY4KEpOjJo/exec'
@@ -55,3 +46,24 @@ The registration is free but compulsory. Registration deadline: 9th February 202
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+
+
+**Abstract**
+* Title in the first line 
+* Authors list in the second line with affiliations in square brackets 
+* Affiliation list in the third line. Identify each affilition using square brackets and separate affiliations by commas.
+* Abstract text starting in the forth line
+* Please do not include any pictures or references. 
+* Limit: 2000 characters.
+* Example: 
+```
+Properties of magical venoms in destroying Horcruxes
+Harry Potter [1,2], Rubeus Hagrid [1] 
+[1] Hogwarts school, [2] Gryffindor house 
+The act of dividing a magical soul and host it in a magical object is a poorly understood branch of the dark arts...
+```
+
+**Motivation letter to attend the workshop**
+* Explain the reasons why you want to participate in the workshop. 
+* Preference will be given to participants that are currently performing phylogenomic analysis in real data. 
+* Limit: 2000 characters.
