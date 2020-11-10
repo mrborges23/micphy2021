@@ -29,15 +29,22 @@ The registration is free but compulsory. Registration deadline: 9th February 202
   </div>
 
   <div>
-    <button type="submit"id="abstract">Submit</button>
+    <label>Field 5</label>
+    <input type="text" name="abstract" placeholder="Field 4"/>
   </div>
 
   <div>
-    <button type="submit"id="workshop">Submit</button>
+    <label>Field 6</label>
+    <input type="text" name="workshop" placeholder="Field 4"/>
   </div>
 
   <div>
-    <button type="submit"id="letter">Submit</button>
+    <label>Field 7</label>
+    <input type="text" name="letter" placeholder="Field 4"/>
+  </div>
+
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
   </div>
 
 </form>
