@@ -25,8 +25,8 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   <br><br>
 
   Do you want to attend the workshop?: <br>
-  <input type="radio" name="workshop" value="1"> No <br>
-  <input type="radio" name="workshop" value="2"> Yes <br><br>
+  <input type="radio" name="question2" value="1"> No <br>
+  <input type="radio" name="question2" value="2"> Yes <br><br>
   Motivation letter:<br>
   <textarea rows="4" cols="50" name="letter"></textarea>
 
