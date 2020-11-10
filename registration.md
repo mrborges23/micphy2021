@@ -49,6 +49,7 @@ The registration is free but compulsory. Registration deadline: 9th February 202
 
 </form>
 
+<script>
 
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycby9aKGewUqCF_RE6JInpvEsG-YvUR7-hl0UwaDDo40RelEGs9oe/exec'
@@ -64,3 +65,4 @@ $('#submit-form').on('click', function(e) {
     // do something
   );
 })
+</script>
