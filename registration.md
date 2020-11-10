@@ -4,7 +4,7 @@ The registration is free but compulsory. Registration deadline: 9th February 202
 
 Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bootom of this page.
 
-<form name="submit-to-google-sheet">
+<form name="submit-to-google-sheet" id="form">
   <br>
   Name:<br>
   <input type="text" name="name" value="">
@@ -46,11 +46,10 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
+  document.getElementById("form").reset();
 </script>
 
-function submit_form() {
-  document.submit-to-google-sheet.reset(); 
-}
+
 
 
 
