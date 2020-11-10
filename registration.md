@@ -2,7 +2,7 @@
 
 The registration is free but compulsory. Registration deadline: 9th February 2021.
 
-Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bootom of this page.
+Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bottom of this page. TEST
 
 <form name="submit-to-google-sheet" id="form">
   <br>
@@ -46,9 +46,8 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  $('#form').find("input:not([type="submit"), textarea").val("");
+  $('#form').get(0).reset();
 </script>
-
 
 
 
