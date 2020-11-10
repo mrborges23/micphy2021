@@ -46,7 +46,7 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  form.reset()
+  document.formu1.reset()
 </script>
 
 
