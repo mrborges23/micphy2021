@@ -32,7 +32,7 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   <textarea rows="4" cols="50" name="letter"></textarea>
 
   <br><br>
-  <button type="submit">Send</button>
+  <button type="submit" onclick="submit_form();">Send</button>
 </form> 
 <br>
 
@@ -46,9 +46,13 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  document.submit-to-google-sheet.reset()
 </script>
 
+</script>
+function submit_form() {
+  document.submit-to-google-sheet.reset(); 
+}
+</script>
 
 
 **Abstract**
