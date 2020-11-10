@@ -44,7 +44,7 @@ The registration is free but compulsory. Registration deadline: 9th February 202
   </div>
 
   <div>
-    <button type="submit"id="submit-form">Submit</button>
+    <button type="submit" id="submit-form">Submit</button>
   </div>
 
 </form>
