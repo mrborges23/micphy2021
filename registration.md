@@ -48,11 +48,10 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   })
 </script>
 
-</script>
 function submit_form() {
   document.submit-to-google-sheet.reset(); 
 }
-</script>
+
 
 
 **Abstract**
