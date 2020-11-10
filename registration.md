@@ -1,6 +1,7 @@
 ## Registration
 
 The registration is free but compulsory. Registration deadline: 9th February 2021.
+
 Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bootom of this page.
 
 <form name="submit-to-google-sheet">
@@ -45,7 +46,7 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  form.reset();
+  form.reset()
 </script>
 
 
@@ -56,13 +57,8 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
 * Abstract text starting in the forth line
 * Please do not include any pictures or references. 
 * Limit: 2000 characters.
-* Example: 
-```
-Properties of magical venoms in destroying Horcruxes
-Harry Potter [1,2], Rubeus Hagrid [1] 
-[1] Hogwarts school, [2] Gryffindor house 
-The act of dividing a magical soul and host it in a magical object is a poorly understood branch of the dark arts...
-```
+
+<br>
 
 **Motivation letter to attend the workshop**
 * Explain the reasons why you want to participate in the workshop. 
