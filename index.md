@@ -10,7 +10,6 @@ The **MIC-Phy** meeting intends to stimulate a broader debate on novel phylogeno
 We will have two keynote speakers. 
 
 * [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA<br/>
-[comment]: # ![alt text](https://www.eeob.iastate.edu/files/styles/people_thumb/public/people/profilepictures/P1010232.jpg?itok=XETFQBtI)
 * To be confirmed 
 
 The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges using large and heterogeneous sequence datasets to build species trees.
