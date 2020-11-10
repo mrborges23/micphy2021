@@ -29,7 +29,7 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   <input type="radio" name="question2" value="1"> No <br>
   <input type="radio" name="question2" value="2"> Yes <br><br>
   Motivation letter:<br>
-  <textarea rows="4" cols="50" name="letter"></textarea>
+  <textarea rows="4" cols="50" name="letter" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');"></textarea>
 
   <br><br>
   <button type="submit" onclick="submit_form();">Send</button>
@@ -46,7 +46,6 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  document.getElementById('form').reset();
 </script>
 
 **Abstract**
