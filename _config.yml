@@ -1,19 +1,19 @@
-theme: jekyll-theme-cayman
-title: MIC-PHY <br/> 15th-17th February 2021
+theme: jekyll-theme-minimal
+title: MIC-Phy 2021 
 description: The virtual MIC-Phy will be happening here!
+show_downloads: false
 navigation:
   - title: Home
-    url: README
-  - title: Setup
-    url: https://github.com/mrborges23/micphy2021/blob/main/LICENSE.html
-
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-
+    url: /
+  - title: Program
+    url: program
+  - title: Workshop
+    url: workshop
+  - title: Registration
+    url: registration
+  - title: Scientific committee
+    url: scientific_committee
+  - title: Organizing committee
+    url: organizers
+  - title: Contacts
+    url: contacts
