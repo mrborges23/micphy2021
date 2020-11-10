@@ -3,13 +3,15 @@ layout: default
 ---
 # Mathematical, Inferential and Computational Phylogenomics 2021
 
+![](https://images.unsplash.com/photo-1586952455290-67db61762dc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+
 We are pleased to announce the **Mathematical, Inferential and Computational Phylogenomics** virtual meeting from 15th to 17th February 2021.
 
 The **MIC-Phy** meeting intends to stimulate a broader debate on novel phylogenomic models and methods aiming at reconstructing species trees by considering whole genomes or large fractions of genomes.
 
 We will have two keynote speakers. 
 
-* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA<br/>
+* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA
 * To be confirmed 
 
 The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges using large and heterogeneous sequence datasets to build species trees.
