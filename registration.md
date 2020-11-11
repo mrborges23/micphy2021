@@ -8,14 +8,14 @@ Please, make sure you follow the guidelines for abstract and motivation letter s
   <br>
   Name:<br>
   <input type="text" name="name" value="">
-  <br>
+  <br><br>
   Email:<br>
   <input type="text" name="email" value="">
-  <br>
+  <br><br>
   Affiliation:<br>
   <input type="text" name="affiliation" value="">
   <br><br>
-  Do you want to attend the workshop?: <br>
+  Do you want to contribute with an oral/poster presentation? <br>
   <input type="radio" name="question1" value="1"> No <br>
   <input type="radio" name="question1" value="2"> Yes, oral presentation only <br>
   <input type="radio" name="question1" value="3"> Yes, oral or poster presentation <br>
