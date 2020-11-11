@@ -2,7 +2,7 @@
 
 Registrations for meeting attendance and poster contributions will continuously be accepted till the **9th of February 2021**. The deadline for contributed talks and workshop attendance is on the **15th of January 2021**. 
 
-Please, make sure you follow the guidelines for abstract and motivation letter submission; these can be found at the bottom of this page. TEST2
+Please, make sure you follow the guidelines for abstract and motivation letter submission; these can be found at the bottom of this page.
 
 <form name="submit-to-google-sheet" id="form" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
   <br>
