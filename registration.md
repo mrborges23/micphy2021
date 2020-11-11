@@ -2,9 +2,9 @@
 
 The registration is free but compulsory. Registration deadline: 9th February 2021.
 
-Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bottom of this page. TEST1
+Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bottom of this page. TEST2
 
-<form name="submit-to-google-sheet" id="form">
+<form name="submit-to-google-sheet" id="form" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
   <br>
   Name:<br>
   <input type="text" name="name" value="">
@@ -32,7 +32,7 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   <textarea rows="4" cols="50" name="letter"></textarea>
 
   <br><br>
-  <button type="submit" onclick="submit_form();" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">Send</button>
+  <button type="submit" onclick="submit_form();">Send</button>
 </form> 
 <br>
 
