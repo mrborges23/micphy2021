@@ -1,8 +1,8 @@
 ## Registration
 
-The registration is free but compulsory. Registration deadline: 9th February 2021.
+Registrations for meeting attendance and poster contributions will continuously be accepted till the **9th of February 2021**. The deadline for contributed talks and workshop attendance is on the **15th of January 2021**. 
 
-Please, make sure you follow the guidelines to abstract and motivation letter submition; these can be found at the bottom of this page. TEST1
+Please, make sure you follow the guidelines for abstract and motivation letter submission; these can be found at the bottom of this page. TEST2
 
 <form name="submit-to-google-sheet" id="form" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
   <br>
@@ -22,17 +22,17 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
   <input type="radio" name="question1" value="4"> Yes, poster presentation <br><br>
 
   Abstract:<br>
-  <textarea rows="4" cols="50" name="abstract"></textarea>
+  <textarea rows="4" cols="50" maxlength="2000" name="abstract"></textarea>
   <br><br>
 
   Do you want to attend the workshop?: <br>
   <input type="radio" name="question2" value="1"> No <br>
   <input type="radio" name="question2" value="2"> Yes <br><br>
   Motivation letter:<br>
-  <textarea rows="4" cols="50" name="letter"></textarea>
+  <textarea rows="4" cols="50"  maxlength="2000"  name="letter"></textarea>
 
   <br><br>
-  <button type="submit" onclick="window.location.reload();">Send</button>
+  <button type="submit">Send</button>
 </form> 
 <br>
 
@@ -49,11 +49,11 @@ Please, make sure you follow the guidelines to abstract and motivation letter su
 </script>
 
 **Abstract**
-* Title in the first line 
-* Authors list in the second line with affiliations in square brackets 
-* Affiliation list in the third line. Identify each affilition using square brackets and separate affiliations by commas.
-* Abstract text starting in the forth line
-* Please do not include any pictures or references. 
+* The title should be placed in the first line.
+* The authors' list goes in the second line. Affiliations should be identified with square brackets: e.g., [1,2].
+* Affiliations' list goes in the third line. Identify each affiliation using square brackets and separate them using commas.
+* Abstract text starts in the fourth line.
+* Please do not include any references in your abstract. 
 * Limit: 2000 characters.
 
 <br>
