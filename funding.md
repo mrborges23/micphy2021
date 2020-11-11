@@ -5,4 +5,4 @@ The meeting is sponsored by:
 <img src="https://www.wwtf.at/jpeto_cache/wwtf_english_RGB_web.jpg" height="20">
 
 * Vetmeduni Vienna <br/>
-<img src="https://wildenachbarn.at/sites/stadtwildtiere.ch/files/system/Dateien/Wien/Vetmeduni%20Logo.jpg" height="20">
+<img src="https://www.wtz-ost.at/wp-content/uploads/2016/05/logo_vetmed.png" height="20">
