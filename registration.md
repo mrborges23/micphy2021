@@ -25,7 +25,7 @@ Please, make sure you follow the guidelines for abstract and motivation letter s
   <textarea rows="4" cols="50" maxlength="2000" name="abstract"></textarea>
   <br><br>
 
-  Do you want to attend the workshop?: <br>
+  Do you want to attend the workshop? <br>
   <input type="radio" name="question2" value="1"> No <br>
   <input type="radio" name="question2" value="2"> Yes <br><br>
   Motivation letter:<br>
