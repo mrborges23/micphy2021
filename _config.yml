@@ -17,3 +17,5 @@ navigation:
     url: organizers
   - title: Contacts
     url: contacts
+  - title: Sponsors
+    url: funding
