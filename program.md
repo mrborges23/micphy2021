@@ -2,17 +2,17 @@
 
 Will be updated soon!
 
-Times follow the current local time in Vienna (TIme zone: UTC+1h).
+All times are UTC+1 (Vienna's local time).
 
 **Monday, 15th February, 2021**
 
 | Time | Event |
 |---|---|
 |10:00-12:20| Workshop: session 1 |
-| | Lunch break |
+| Lunch break | |
 |13:40-14:00| Opening session |
 |14:00-15:40| Talks |
-| | Break |
+| Break | |
 |16:00-17:40| Talks |
 |17:40-18:40| Poster session 1 |
 
@@ -23,9 +23,9 @@ Times follow the current local time in Vienna (TIme zone: UTC+1h).
 | Time| Event |
 |---|---|
 |10:00-12:20| Workshop: session 2 |
-| | Lunch break |
+| Lunch break | |
 |14:00-15:40| Talks |
-| | Break |
+| Break | |
 |16:00-17:40| Talks |
 |17:40-18:40| Poster session 1 |
 
@@ -36,8 +36,8 @@ Times follow the current local time in Vienna (TIme zone: UTC+1h).
 | Time| Event |
 |---|---|
 |10:00-12:20| Workshop: session 3 |
-| | Lunch break |
+| Lunch break | |
 |14:00-15:40| Talks |
-| | Break |
+| Break | |
 |16:00-17:40| Talks |
 |17:40-18:00| Closing session |
