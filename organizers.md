@@ -5,3 +5,5 @@
 * **Carolina Barata** University of St Andrews, UK
 * **Lynette Mikula** University of St Andrews, UK
 
+
+equation \(x+y\)
