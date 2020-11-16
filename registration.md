@@ -1,8 +1,8 @@
 ## Registration
 
-Registrations for meeting attendance and poster contributions will continuously be accepted till the **9th of February 2021**. The deadline for contributed talks and workshop attendance is on the **15th of January 2021**. 
+Registrations for meeting the meeting ang poster contributions will be accepted continuously till the **9th of February 2021**.  The deadline for abstracts for contributed talks and posters as well as motivation letters for workshop attendance is the **15th of January 2021**.
 
-Please, make sure you follow the guidelines for abstract and motivation letter submission; these can be found at the bottom of this page.
+Please make sure you follow the guidelines for abstract and motivation letter submission at the bottom of this page.
 
 <form name="submit-to-google-sheet" id="form" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
   <br>
@@ -50,8 +50,8 @@ Please, make sure you follow the guidelines for abstract and motivation letter s
 
 **Abstract**
 * The title should be placed in the first line.
-* The authors' list goes in the second line. Affiliations should be identified with square brackets: e.g., [1,2].
-* Affiliations' list goes in the third line. Identify each affiliation using square brackets and separate them using commas.
+* The author list goes in the second line. Affiliations should be identified with square brackets: e.g., [1,2].
+* List of affiliations goes in the third line. Identify each affiliation using square brackets and separate them using commas.
 * Abstract text starts in the fourth line.
 * Please do not include any references in your abstract. 
 * Limit: 2000 characters.
@@ -59,6 +59,6 @@ Please, make sure you follow the guidelines for abstract and motivation letter s
 <br>
 
 **Motivation letter to attend the workshop**
-* Explain the reasons why you want to participate in the workshop. 
-* Preference will be given to participants that are currently performing phylogenomic analysis in real data. 
+* Please explain how topics covered in the workshop are relevant for your research.
+* Preference will be given to participants that are currently performing phylogenomic analysis. 
 * Limit: 2000 characters.

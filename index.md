@@ -3,20 +3,19 @@ layout: default
 ---
 # Mathematical, Inferential, and Computational Phylogenomics 2021
 
-We are pleased to announce the **Mathematical, Inferential, and Computational Phylogenomics** virtual meeting from 15th to 17th February 2021.
+We are pleased to announce that the **Mathematical, Inferential, and Computational Phylogenomics** (MIC-Phy) meeting will take place online from 15th to 17th February 2021.
 
-The **MIC-Phy** meeting intends to stimulate a broader debate on novel phylogenomic models and methods to reconstruct species trees by considering whole genomes or large fractions of genomes.
+The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference:.
 
-We will have two keynote speakers. 
+The keynote speakers are:
 
-* [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA
+* [**Tracy Heath**](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA
 * To be confirmed 
 
-The keynote talks will describe recent breakthroughs in statistical inference methods and software that address challenges using large and heterogeneous sequence datasets to build species trees.
+Contributed talks will be selected from submitted abstracts. We welcome submissions on recent advances in phylogenetic method development (both theoretical and computational), as well as key insights into new or old data gained using novel methods.
 
-Contributed talks will be selected from submitted abstracts; these may also describe advances in method development, novel challenges, or discoveries made using new methods.
+As part of this meeting, we will hold a small virtual workshop entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programmes RevBayes and IQ-TREE.
 
-The meeting holds a virtual workshop entitled **New approaches and methods to phylogeny inference** focusing on the polymorphism-aware phylogeny estimation. It will include practical exercises based on RevBayes and IQ-TREE software.
 
 ## Important dates
 
