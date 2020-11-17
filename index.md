@@ -20,6 +20,6 @@ As part of this meeting, we will hold a small virtual workshop entitled **New ap
 
 ## Important dates
 
-* 15th January 2021 Deadline for workshop registration and abstract submission
-* 1st February 2021 Notification of oral/poster presentation and workshop acceptance
-* 9th February 2021 Registration and poster submission deadline
+* **15th January 2021** Deadline for workshop registration and abstract submission
+* **1st February 2021** Notification of oral/poster presentation and workshop acceptance
+* **9th February 2021** Registration and poster submission deadline
