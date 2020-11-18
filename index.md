@@ -15,7 +15,7 @@ The keynote speakers are:<br/>
 
 Contributed talks will be selected from submitted abstracts. We welcome submissions on recent advances in phylogenetic method development (both theoretical and computational), as well as key insights into new or old data gained using novel methods.
 
-As part of this meeting, we will hold a small virtual workshop entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programs RevBayes and IQ-TREE.
+As part of this meeting, we will hold a small virtual [workshop](workshop.md) entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programs RevBayes and IQ-TREE.
 
 
 ## Important dates
