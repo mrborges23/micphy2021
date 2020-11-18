@@ -2,7 +2,7 @@
 
 The meeting includes a workshop entitled 'New approaches to phylogenetic inference' that will run alongside the talks. The workshop consists of three sessions of two hours each and will focus on polymorphism-aware phylogeny estimation, including practical exercises based on the software IQ-TREE and RevBayes.
 
-The workshop is free but the number of participants is limited. Students and researchers are invited to apply by submitting a motivation letter (&#8592;[Registration](registration.md)).
+The workshop is free but the number of participants is limited. Students and researchers are invited to apply by submitting a motivation letter &#8592;[Registration](registration.md).
 
 * **Session 1**: RevBayes: Bayesian tree estimation<br/>
 Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
