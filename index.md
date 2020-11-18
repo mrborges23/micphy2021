@@ -7,7 +7,7 @@ We are pleased to announce that the **Mathematical, Inferential, and Computation
 
 The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
 
-The keynote speakers are:<br/>
+The keynote speakers are:
 * [Ziheng Yang](http://abacus.gene.ucl.ac.uk/ziheng/cv.html) University College London
 , UK
 * [Tracy Heath](https://www.eeob.iastate.edu/people/tracy-heath) Iowa State University of Science and Technology, USA
