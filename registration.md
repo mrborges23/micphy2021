@@ -2,7 +2,7 @@
 
 Registrations for meeting the meeting ang poster contributions will be accepted continuously till the **9th of February 2021**.  The deadline for abstracts for contributed talks and posters as well as motivation letters for workshop attendance is the **15th of January 2021**.
 
-Participation at the meeting is free of charge &#8599;[Sponsors](funding.md), but registration is compulsory. 
+Participation at the meeting is free of charge [&#8599;Sponsors](funding.md), but registration is compulsory. 
 Please make sure you follow the guidelines for abstract and motivation letter submission at the bottom of this page.
 
 <form name="submit-to-google-sheet" id="form" onSubmit="alert('Thanks for your registration! We will check your submitted data and send you a confimatory email.');">
