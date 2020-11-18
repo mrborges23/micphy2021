@@ -5,7 +5,7 @@ layout: default
 
 We are pleased to announce that the **Mathematical, Inferential, and Computational Phylogenomics** (MIC-Phy) meeting will take place online from 15th to 17th February 2021.
 
-The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference:.
+The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
 
 The keynote speakers are:
 * [Ziheng Yang](http://abacus.gene.ucl.ac.uk/ziheng/cv.html) University College London
@@ -15,7 +15,7 @@ The keynote speakers are:
 
 Contributed talks will be selected from submitted abstracts. We welcome submissions on recent advances in phylogenetic method development (both theoretical and computational), as well as key insights into new or old data gained using novel methods.
 
-As part of this meeting, we will hold a small virtual workshop entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programmes RevBayes and IQ-TREE.
+As part of this meeting, we will hold a small virtual workshop entitled **New approaches to phylogenetic inference**. The main focus will be polymorphism-aware phylogenetic models and practical exercises in the programs RevBayes and IQ-TREE.
 
 
 ## Important dates
