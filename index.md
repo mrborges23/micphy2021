@@ -3,6 +3,8 @@ layout: default
 ---
 # Mathematical, Inferential, and Computational Phylogenomics 2021
 
+![](/assets/img)
+
 We are pleased to announce that the **Mathematical, Inferential, and Computational Phylogenomics** (MIC-Phy) meeting will take place online from 15th to 17th February 2021.
 
 The MIC-Phy meeting intends to stimulate a broader discussion on novel phylogenomic models. The keynote talks will focus on the computational and statistical aspects of using large and heterogeneous sequences to build species trees and perform inference.
