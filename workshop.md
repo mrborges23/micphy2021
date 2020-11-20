@@ -13,5 +13,5 @@ Tutored by [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4) and [C
 Description
 
 * **Session 3**: IQ-tree PoMos<br/>
-Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)<br/>
+Tutored by ...
 Description
