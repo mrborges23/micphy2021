@@ -6,3 +6,6 @@ The meeting is sponsored by:
 <br/> <br/><br/>
 <img src="https://www.viennabiocenter.org/fileadmin/_processed_/5/a/csm_wwtf_english_RGB_cb792ba64f.jpg" height="90"><br/><br/>
 <img src="https://www.wtz-ost.at/wp-content/uploads/2016/05/logo_vetmed.png" height="55">
+
+
+Homepage photo credits to [Dimitry Anikin](https://unsplash.com/@anikinearthwalker).

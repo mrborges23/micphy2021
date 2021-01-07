@@ -8,10 +8,11 @@ The workshop is free but the number of participants is limited. Students and res
 Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
 Description
 
-* **Session 2**: Bayesian Polymorphism-aware phylogenetic models<br/>
+* **Session 2**: IQ-tree PoMos<br/>
+Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)
+Description
+
+* **Session 3**: Bayesian Polymorphism-aware phylogenetic models<br/>
 Tutored by [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4) and [Carolin Kosiol](https://risweb.st-andrews.ac.uk/portal/en/persons/carolin-kosiol(c9f40ab1-9f6d-4739-b827-f572db24bbd5).html) <br/>
 Description
 
-* **Session 3**: IQ-tree PoMos<br/>
-Tutored by ...
-Description
