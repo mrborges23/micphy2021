@@ -9,7 +9,7 @@ Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
 Description
 
 * **Session 2**: IQ-tree PoMos<br/>
-Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)
+Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)<br/>
 Description
 
 * **Session 3**: Bayesian Polymorphism-aware phylogenetic models<br/>
