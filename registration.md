@@ -60,7 +60,7 @@ Please make sure you follow the guidelines for abstract and motivation letter su
 
 <br>
 
-**Motivation letter to attend the workshop**
+<!--**Motivation letter to attend the workshop**
 * Please explain how topics covered in the workshop are relevant for your research.
 * Preference will be given to participants that are currently performing phylogenomic analysis. 
-* Limit: 2000 characters.
+* Limit: 2000 characters.-->
