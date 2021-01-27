@@ -11,6 +11,8 @@ navigation:
     url: workshop
   - title: Registration
     url: registration
+  - title: Virtual posters
+    url: posters
   - title: Scientific committee
     url: scientific_committee
   - title: Organizing committee
