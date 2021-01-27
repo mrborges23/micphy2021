@@ -27,7 +27,7 @@ Long branch attraction is a well known and problematic artifact in phylogenetic 
 Microsporidia are obligatory intracellular parasites characterized by streamlined genomes. The rapid evolutionary rates of microsporidia, as well as the physiological simplification, made it difficult to position them in the tree of life due to methodological artifacts, such as long-branch attraction. Through phylogenomics it was possible to show that microsporidia are actually derived from very ancestral fungi. Encephalitozoon and Ordospora species are closely related, and their genomes are models for genomic reduction and compaction, as the smallest eukaryotic genome known belongs to Encephalitozoon genus. Here we assembled the genome of new microsporidian species, not yet described and temporarily named FI-F-10, with SPAdes. We obtained an assembled genome size of 2.20 Mb, and protein annotation was performed with Prodigal. A preliminary phylogenomics analysis, with 24 microsporidian lineages, made with RaxML with support statistics of 500 bootstraps replicates positioned FI-F-10 in a basal position in relation to Ordospora colligata clade. We are currently performing a phylogenomics analysis with all microsporidian lineages that have roteomes available in databases, totaling 43 lineages.
 
 
-# **4. Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data**
+### **4. Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data**
 
 **V. Bartáková** [1], D. Mizerovská [1,2], O. Mikula [1], A. Bryjová [1], J. Bryja [1,2]
 
@@ -36,7 +36,7 @@ Microsporidia are obligatory intracellular parasites characterized by streamline
 African grass rats of the genus Arvicanthis are an important group of rodents of open habitats in sub-Saharan Africa and they are major agricultural pests. This genus is composed of two major groups with different evolutionary histories, but most relationships among species are still not satisfactorily resolved. Until now, the most comprehensive phylogeny was based on mtDNA and six nuclear markers. It was found that the phylogeny of nuclear markers does not correspond to mtDNA phylogeny, this is an indication of reticulate evolution in Ethiopian highlands, similarly as in other montane Ethiopian taxa. The main aims of our study are: (1) to reconstruct the evolutionary history using genomic data and solve the most problematic nodes, especially compared to previous study; (2) to identify the genomic pools (= species delimitation), with the main focus on Ethiopian taxa, where the reticulate evolution is expected; and (3) to resolve taxonomy of problematic groups using integrative approach (genomic species delimitation and geometric morphometry). We already have data from ddRAD sequencing for 117 individuals of genus Arvicanthis with length of 258,170 bp.
 
 
-# **5. Impact of the Paleocene–Eocene Thermal Maximum on diversification dynamics in Paederinae rove beetles**
+### **5. Impact of the Paleocene–Eocene Thermal Maximum on diversification dynamics in Paederinae rove beetles**
 
 **Katarzyna Koszela** [1]
 
@@ -44,7 +44,7 @@ African grass rats of the genus Arvicanthis are an important group of rodents of
 
 The Paleocene-Eocene Thermal Maximum (PETM) has been the most influential climatic warming event of the Cenozoic but its impact on the insect diversification is little known. The main aim of our project is to study the evolutionary response to this event of a mega-diverse insect lineage, the Paederinae rove beetles. Their rich fossil record after PETM could suggest that warming was a driving force for the evolution of this group. To test it, we will build the first largescale phylogeny of Paederinae using morphological data and genomic data of UCEs and use it for exploration of evolutionary patterns. The total-evidence dating approach will be used to jointly estimate phylogenetic relationships and divergence times. Timing the lineage turnover along the tree branches and testing diversification models will allow for assessing the impact of PETM on diversification dynamics of the group and for answering the question if the event is one of the main causes of their current mega-diversity.
 
-# **6.  Molecular Evolution of Olfactory Receptors through jawless and jawed fishes**
+### **6.  Molecular Evolution of Olfactory Receptors through jawless and jawed fishes**
 
 Liliana Silva [1,2], Tito Mendes [1,2], Agostinho Antunes [1,2]
 
@@ -52,7 +52,7 @@ Liliana Silva [1,2], Tito Mendes [1,2], Agostinho Antunes [1,2]
 
 Olfactory receptors (ORs) perform a major role in detecting odors, crucial for intra/interspecific communication and species survival. The several ORs classification systems available are full of ambiguities mainly related with existence of a gene repertoire highly diverse and expanded across vertebrate species (the presence of a single intact gene in elephant sharks compared to the more than 1,000 genes in some mammalian species). In fishes, the OR family was characterized in some punctual species but little is known about the gene repertoire in most fishes. The aim was to explore the diversity of OR genes among fish lineages. For that purpose, 37 genomes of jawless and jawed fishes were considered. A gene extraction protocol was applied followed by ML phylogenetic reconstructions. We expected to use new approaches of phylogenetic inference as powerful tools to unravel the ORs classification system and provide an adequate nomenclature since the high diversity of OR gene repertoire across species is a nightmare for traditional phylogenetic inferences methodologies.
 
-# **7. Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST)**
+### **7. Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST)**
 
 **Bojan Papić** [1], Darja Kušar [1]
 
@@ -60,7 +60,7 @@ Olfactory receptors (ORs) perform a major role in detecting odors, crucial for i
 
 Paenibacillus larvae is the causative agent of American foulbrood (AFB), a serious disease of honeybees. Here, 59 P. larvae isolates from Slovenia associated with an extensive AFB outbreak in Slovenia, period 2019–2020, underwent whole-genome sequencing (Illumina). Of these, 40 isolates originated from three apiaries maintained by the same beekeeper. A newly developed cg/wgMLST scheme for P. larvae implemented in BioNumerics software was used for cluster analysis. By combining genetic and epidemiological data, two ST11-ERIC II outbreak clusters were identified on minimum-spanning trees by applying a threshold of 34 wgMLST allele differences (AD) and 24 cgMLST AD. The clusters were separated by a minimum of 51 cgMLST AD and 63 wgMLST AD. Isolates from a single beekeeping practice could be linked by a threshold of 7 cgMLST AD and 11 wgMLST AD. Phylogenetic trees generated by both approaches were generally concordant and provided sufficient discriminatory power to delineate the outbreak clusters. This study improves our understanding of the intra- and inter-outbreak diversity of P. larvae, which is necessary for improving the epidemiological surveillance of AFB.
 
-# **8. New World primate phylogeny and species boundaries with novel genomic data**
+### **8. New World primate phylogeny and species boundaries with novel genomic data**
 
 **Mareike C. Janiak** [1], Dorien de Vries [1], Ian B. Goodhead [1], Jean P. Boubli [1], Robin M. D. Beck [1]
 
@@ -68,7 +68,7 @@ Paenibacillus larvae is the causative agent of American foulbrood (AFB), a serio
 
 New World primates (NWPs) are a classic adaptive radiation of >100 living species, derived from an ancestor that reached South America from Africa ~35 million years ago. They are therefore an ideal system for studying the processes and drivers of speciation. However, genomic data for NWPs has been limited to four whole genomes and a few mitochondrial markers. Thus, key aspects of their phylogeny remain unresolved, and it is unclear exactly how many NWP species there are, which impedes conservation efforts. Using a novel genomic dataset from over 200 individual NWPs, including fully assembled mitochondrial genomes, ~3000 UCE loci, and whole genome shotgun sequences, together with revised fossil calibrations, we are producing a comprehensive, dated NWP phylogeny that will be used as a framework for macroevolutionary analyses. We are also implementing coalescence-based identification of species, in order to clarify species boundaries and create a stable list of NWP species.
 
-# **9. Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data**
+### **9. Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data**
 
 **Dagmara Żyła** [1,2,3], Alexandra Tokareva [1]
 
