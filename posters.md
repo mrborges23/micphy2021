@@ -1,7 +1,7 @@
 ## Virtual Posters
 
 
-# **1. A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data**
+### **1. A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data**
 
 **Ronja Jessica Billenstein** [1,2]
 
@@ -9,7 +9,7 @@
 
 Reconstructing demographic histories from genome sequences is one of the key problems in population genetics. Many analyses use site frequency spectra (SFS) to infer parameters such as the effective population size and population size changes to model historical events. SFS are derived from single-nucleotide polymorphism (SNP) data and describe the distribution of genetic variants in a population sample. An extensively used software for demographic inference from SFS is dadi (Diffusion Approximation for Demographic Inference), which applies a diffusion approach to calculate the expected frequency spectrum for different demographic models. The model input parameters then are optimized by maximizing the spectrum similarity to empirical data based on a composite likelihood function. Here, we present an alternative method utilizing a combination of the diffusion approach to generate model spectra and a Bayesian skyline plot to infer a posterior distribution of the demographic history of a population. We simulated SNP data applying coalescent theory and a mutation process to generate SFS for various demographic scenarios and used the produced data to test the method.
 
-# **2. Higher Order Substitution Models - Mixture Models**
+### **2. Higher Order Substitution Models - Mixture Models**
 
 **Killian Smith** [1,2], Sebastian Höhna [1,2]
 
@@ -18,7 +18,7 @@ Reconstructing demographic histories from genome sequences is one of the key pro
 Long branch attraction is a well known and problematic artifact in phylogenetic reconstruction. One of the proposed methods to mitigate this issue is to relax the assumption that all sites in the alignment share the same base distribution, and allow for models that can account for structural constraints (ex: CAT, C10-C60, and EDCluster). We have implemented mixture models in RevBayes in a Bayesian framework, and performed a simulation study to analyze the costs and benefits of the models. We find that increasing the number of mixtures produce results with higher log likelihood values, but this effect approaches a limit. We also find that using an excessive number of mixtures does not change the results of the analysis. Our general recommendation from this study is to use mixture models, and to set the number of categories to a generous value (pending hardware and time constraints).
 
 
-# **3. Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade**
+### **3. Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade**
 
 **de Albuquerque, N. R. M.** [1], Pombert, J. [2], Haag, K. L. [1], Ebert, D. [3]
 
