@@ -46,7 +46,7 @@ The Paleocene-Eocene Thermal Maximum (PETM) has been the most influential climat
 
 ### **6.  Molecular Evolution of Olfactory Receptors through jawless and jawed fishes**
 
-Liliana Silva [1,2], Tito Mendes [1,2], Agostinho Antunes [1,2]
+**Liliana Silva** [1,2], Tito Mendes [1,2], Agostinho Antunes [1,2]
 
 [1] CIIMAR/CIMAR, Interdisciplinary Centre of Marine and Environmental Research, [2] Department of Biology, Faculty of Sciences, University of Porto
 
@@ -70,7 +70,7 @@ New World primates (NWPs) are a classic adaptive radiation of >100 living specie
 
 ### **9. Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data**
 
-**Dagmara Żyła** [1,2,3], Alexandra Tokareva [1]
+Dagmara Żyła [1,2,3], **Alexandra Tokareva** [1]
 
 [1] Museum and Institute of Zoology, Polish Academy of Sciences, Wilcza 64, 00-679 Warsaw, Poland, [2] Department of Invertebrate Zoology and Parasitology, University of Gdańsk, 80-308, Gdańsk, Poland, [3] Department of Ecology, Evolution and Organismal Biology, Iowa State University, Ames, IA 50011, USA
 
@@ -80,7 +80,7 @@ ove beetles, which includes more than 7,600 species in 225 genera. Despite some 
 
 ### **10. Reconstructing the evolutionary history of a rapid species radiation: the Andean Lupins**
 
-Bruno Nevado [1], Colin Hughes [2]
+**Bruno Nevado** [1], Colin Hughes [2]
 
 [1] CE3C – Faculty of Sciences, University of Lisbon, Portugal; [2] Institute of Systematic Botany, University of Zurich, Switzerland.
 
@@ -89,7 +89,7 @@ With over 80 species described and an estimated age of 2 Myr, Andean Lupinus are
 
 ### **11. Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa**
 
-Rocha S [1,2], Pérez-Figueroa A [1,2], Lemmon AR [4], Lemmon EM [5],  Tenorio MJ [6], Afonso CM [7], Zardoya R [8], Posada D [1,2,3]
+**Rocha S** [1,2], Pérez-Figueroa A [1,2], Lemmon AR [4], Lemmon EM [5],  Tenorio MJ [6], Afonso CM [7], Zardoya R [8], Posada D [1,2,3]
 
 [1] CINBIO, Universidade de Vigo, 36310 Vigo, España, [2] Instituto de Investigación Sanitária Galicia Sur, Hospital Álvaro Cunqueiro, 36213 Vigo, España, [3] Departamento de Bioquímica, Genética e Inmunología, Universidade de Vigo, 36310 Vigo, España, [4] Department of Scientific Computing, Florida State University, Tallahassee, Florida, [5] Department of Biological Sciences, Florida State University, Tallahassee, Florida, [6] Departamento CMIM y Química Inorgánica – Instituto de Biomoléculas (INBIO), Facultad de Ciencias, Torre Norte, 1ª Planta, Universidad de Cadiz, 11510 Puerto Real, Cadiz, Spain, [7] CCMAR, Centre of Marine Sciences, Universidade do Algarve, Campus de Gambelas, 8005-139 Faro, Portugal, [8] MNCN-CSIC, Museo Nacional de Ciencias Naturales, José Gutiérrez Abascal 2, 28006, Madrid, Spain.
 
