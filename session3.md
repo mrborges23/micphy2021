@@ -19,7 +19,7 @@ Inside this folder, create two more: one called **data** and another called **ou
 
 1. The first step in this tutorial is to convert the allelic counts into PoMo states. As we will be using the virtual PoMos Two and Three, the virtual population sizes are, respectively, 2 and 3. We will be using the sampled-weighted strategy to correct for sampling errors. This script is implemented in **C++**, and we will run it using **R** and the package **Rcpp**.  Open the ```counts_to_pomo_states_converter.R``` file and make the appropriate changes to obtain your PoMo alignments suited for PoMoTwo and Three. 
 
-```{r}
+```r
 count_file <- "count_file.txt"     # count file
 n_alleles  <- 4                    # the four nucleotide bases A, C, G and T
 N          <- 10                   # virtual population size
