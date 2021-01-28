@@ -3,7 +3,7 @@
 
 ### **1. A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data**
 
-**Ronja Jessica Billenstein** [1,2]
+**Ronja Jessica Billenstein** [1,2], Sebastian Höhna [1,2]
 
 [1] GeoBio-Center LMU, Ludwig-Maximilians-Universität München, Richard-Wagner-Str. 10, 80333 Munich, Germany, [2] Department of Earth and Environmental Sciences, Paleontology & Geobiology, Ludwig-Maximilians-Universität München, Richard-Wagner-Str. 10, 80333 Munich, Germany
 
@@ -102,3 +102,11 @@ Martin Helmkampf [1], Kosmas Hench [1,2], Oscar Puebla [1,3]
 [1] Leibniz Centre for Tropical Marine Research (ZMT), Bremen, Germany, [2] Max Planck Institute of Animal Behavior, Radolfzell, Germany, [3] Carl von Ossietzky Universität Oldenburg, Oldenburg, Germany
 
 Adaptive radiations are a major source of biodiversity, yet few have been studied in the sea, where barriers to gene flow are less pronounced than on land. Hamlets, a group of Caribbean reef fish that have recently radiated into a brilliant diversity of color patterns, provide an excellent opportunity to investigate a marine radiation from a genomics perspective. Generating and analyzing 170 whole-genome sequences of 13 hamlet species, we found that genetic divergence between species was generally low. In contrast, several narrow genomic intervals harboring genes involved in pigmentation and color vision were characterized by differentiation peaks, underscoring that in hamlets, speciation is driven by natural and sexual selection on color patterns. However, evidence for hybridization and thus ongoing gene flow was found between several species. Preliminary phylogenetic analyses suggest that some species may not be monophyletic, and that some phenotypes may have evolved convergently. However, the combination of low phylogenetic signal, hybridization, and presumably incomplete lineage sorting severely impacted the reliability of the reconstruction. Thus, additional analyses are needed to obtain a more complete picture of the hamlet radiation.
+
+### **13. Congruent birth-death models can be collapsed using Bayesian inference**
+
+Bjørn Tore Kopperud [1]
+
+[1] GeoBio-Center Ludwig-Maximilians-Universität München, 80333 Munich, Germany
+
+The discovery of congruent sets of birth-death processes has raised a series of questions as to what diversification patterns we can infer from phylogenetic trees. Many phylogenetic trees are estimated solely from extant samples and no information about extinction. For such systems, there exists a class of models that are all equally likely, and thus are statistically unidentifiable. However, the general behaviour for such classes is not well known. We simulate a series of phylogenetic trees, both within and across congruence classes, and explore their properties using state of the art Bayesian inference methods. Results show that diversification rates inferred using Bayesian shrinkage priors produce not an arbitrary model from the congruence class. Bayesian shrinkage priors collapses the congruence class to a single, simplest model in accordance with the prior expectations. Thus, diversification rate can be inferred from molecular phylogenies when realistic priors are used.

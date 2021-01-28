@@ -2,7 +2,7 @@
 
 ### Placing ancient DNA sequences into reference phylogenies
 
-Bianca De Sanctis [1,2], Rui Martiniano [2,3] and Richard Durbin [3,4]
+**Bianca De Sanctis** [1,2], Rui Martiniano [2,3] and Richard Durbin [3,4]
 
 [1] Department of Zoology, University of Cambridge, Cambridge CB2 3EJ, UK, [2] Department of Genetics, University of Cambridge, Cambridge CB2 3EJ, UK, [3] School of Biological and Environmental Sciences, Liverpool John Moores University, Liverpool L3 3AF, UK, [4] Wellcome Sanger Institute, Cambridge CB10 1SA, UK
 
@@ -11,7 +11,7 @@ During the last decade, large volumes of ancient DNA (aDNA) data have been gener
 
 ### **Dating Alphaproteobacteria evolution with eukaryotic fossils**
 
-Sishuo Wang [1], Haiwei Luo [1]
+**Sishuo Wang** [1], Haiwei Luo [1]
 
 [1] The Chinese University of Hong Kong
 
@@ -20,7 +20,7 @@ Elucidating the timescale of evolution of bacteria is key to testing hypotheses 
 
 ### **ILS-Aware Analyses of Retroelement Insertions in the Anomaly Zone**
 
-Erin Molloy [1], John Gatesy [2], Mark Springer [3]
+**Erin Molloy** [1], John Gatesy [2], Mark Springer [3]
 
 [1] University of California, Los Angeles; [2] American Museum of Natural History; [3] University of California, Riverside
 
@@ -29,7 +29,7 @@ A major shortcoming of concatenation methods for species tree estimation is thei
 
 ### **On the terminal branch length distribution and its application in the singleton density score**
 
-Benjamin Wölfl [1,2]
+**Benjamin Wölfl** [1,2]
 
 [1] University of Vienna Institute of Mathematics, [2] Vienna Graduate School of Population Genetics
 
@@ -40,7 +40,7 @@ I combine efficient backward-time and forward-time simulations of simple to comp
 
 ### **Dissecting genomic determinants of positive selection with an evolution-guided regression model**
 
-Yi-Fei Huang [1]	
+**Yi-Fei Huang** [1]	
 
 [1] Pennsylvania State University
 
@@ -48,7 +48,7 @@ In evolutionary genomics, it is fundamentally important to understand how charac
 
 ### **Convergence assessment in Phylogenetics**
 
-Luiza Fabreti [1,2] and Sebastian Höhna [1,2]
+**Luiza Fabreti** [1,2] and Sebastian Höhna [1,2]
 
 [1] GeoBio-Center Ludwig-Maximilians-Universität München, [2] Department of Earth and Environmental Sciences, Paleontology & Geobiology, Ludwig-Maximilians-Universität
 München
@@ -59,7 +59,7 @@ We implemented these methods in an easy-to-use R package called Convenience. The
 "
 ### **sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework**
 
-Giorgio Bianchini [1], Patricia Sánchez-Baracaldo [1]
+**Giorgio Bianchini** [1], Patricia Sánchez-Baracaldo [1]
 
 [1] School of Geographical Sciences, University of Bristol, Bristol, UK
 
@@ -72,7 +72,7 @@ The wide variety of algorithms implemented in sMap enables accurate analyses of 
 
 ### **The corrected Synonymous Dinucleotide Usage: a novel framework for quantifying genomic dinucleotide representation**
 
-Spyros Lytras[1], Joseph Hughes[1]
+**Spyros Lytras** [1], Joseph Hughes [1]
 
 [1] MRC-University of Glasgow Centre for Virus Research, Scotland, UK
 
@@ -80,7 +80,7 @@ Distinct patterns of dinucleotide representation, such as CpG and UpA suppressio
 
 ### **Generalizing Bayesian phylogenetics to infer shared evolutionary events**
 
-Jamie R. Oaks [1] and Perry L. Wood Jr. [1]
+**Jamie R. Oaks** [1] and Perry L. Wood Jr. [1]
 
 [1] Department of Biological Sciences & Museum of Natural History, Auburn University, Auburn, Alabama 36849
 
@@ -89,7 +89,7 @@ Over the past two decades, much progress has been made in developing phylogeneti
 
 ### **Phylogenomic analysis of New Zealand polyploid Azorella (Apiaceae)**
 
-Weixuan Ning [1], Heidi Meudt [2], Jennifer Tate [1]
+**Weixuan Ning** [1], Heidi Meudt [2], Jennifer Tate [1]
 
 [1 School of Fundamental Sciences, Massey University], [2 Museum of New Zealand Te Papa Tongarewa, New Zealand]
 
@@ -98,16 +98,17 @@ When using high copy nuclear gene markers such as ITS (internal transcribed spac
 
 ### **Ordering the events in the ancient tree of life with edge length ratio distributions.**
 
-Andrew J. Roger[1]
+**Andrew J. Roger** [1], Ed Susko [1], Dandan Zhao [1], Laura Eme [2], Mike Steel [3] and Dan Gaston [4]
 
-[1] Centre for Comparative Genomics and Evolutionary Bioinformatics, Dalhousie University, Halifax, Nova Scotia, Canada, B3H 4R2
+[1] Centre for Comparative Genomics and Evolutionary Bioinformatics, Dalhousie University, Halifax, Nova Scotia, Canada, B3H 4R2, [2] CNRS - Université Paris-Sud 
+Unité Ecologie Systématique Evolution, Bâtiment 360 91405 Orsay Cedex, France, [3] Biomathematics Research Centre, University of Canterbury, Christchurch, New Zealand 8041, [4]  Department of Pathology, Nova Scotia Health Authority and Dalhousie University, Halifax, Nova Scotia, Canada B3H 4R2
 
 Two recent high profile studies have attempted to use edge (branch) length ratios from large sets of phylogenetic trees to determine the relative ages of genes of different origins in the evolution of eukaryotic cells. This approach can be straightforwardly justified if substitution rates are constant over the tree for a given protein. However, such strict molecular clock assumptions are not expected to hold on the billion-year timescale. I will discuss an alternative set of conditions under which comparisons of edge length distributions from multiple groups of phylogenies of proteins with different origins can be validly used to discern the order of their origins. Then I will show that functional divergence in proteins adapting to new cellular roles during the prokaryote-eukaryote transition has differentially affected edge length distributions of genes of different origins, complicating attempts to order the events that occurred during eukaryogenesis.
 
 
 ### **Inferring divergence times using a stepwise Bayesian approach**
 
-Allison Yi Hsiang [1,2] and Sebastian Höhna [1,2]
+**Allison Yi Hsiang** [1,2] and Sebastian Höhna [1,2]
 
 [1] GeoBio-Center LMU, Ludwig-Maximilians-Universität München, Richard-Wagner-Str. 10, 80333 Munich, Germany, [2] Department of Earth and Environmental Sciences, Paleontology & Geobiology, Ludwig-Maximilians-Universität München, Richard-Wagner-Str. 10, 80333 Munich, Germany
 
