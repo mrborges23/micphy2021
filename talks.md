@@ -85,16 +85,7 @@ Distinct patterns of dinucleotide representation, such as CpG and UpA suppressio
 [1] Department of Biological Sciences & Museum of Natural History, Auburn University, Auburn, Alabama 36849
 
 Over the past two decades, much progress has been made in developing phylogenetic methods for estimating rooted, time-proportional trees. However, all of these methods assume that processes of diversification affect evolutionary lineages independently; i.e., divergence times are independent conditional on the topology. This assumption is likely violated in nature by processes that cause multiple lineages to diverge. Such processes are potentially common in biogeography, epidemiology, and genome evolution. We introduce a general Bayesian framework to relax the assumption of independent divergences during phylogenetic inference and test hypotheses about processes of diversification that affect multiple evolutionary lineages. Using simulations, we find that the new method accurately infers shared divergence events when they occur, and performs as well as current methods when divergences are independent. We apply our new approach to genomic data from geckos from the Philippines to test the hypothesis that interglacial rises in sea level caused bursts of speciation across the islands.
-"
 
-### **Phylogenomic analysis of New Zealand polyploid Azorella (Apiaceae)**
-
-**Weixuan Ning** [1], Heidi Meudt [2], Jennifer Tate [1]
-
-[1 School of Fundamental Sciences, Massey University], [2 Museum of New Zealand Te Papa Tongarewa, New Zealand]
-
-When using high copy nuclear gene markers such as ITS (internal transcribed spacer, nuclear ribosomal DNA, nrDNA) or plastid regions, phylogenetic inference of closely related plant species with reticulate evolutionary histories are challenging. This is because ITS can be subjected to concerted evolution and commonly used plastid markers have few informative sites. Newer approaches use target enrichment sequencing of low/single copy nuclear genes (LCNG) by the universal Angiosperm353 bait set, and this provides a way to capture all copies of the desired genes at low costs. This approach can be particular useful to resolve the phylogenetic relationships of genera that contain many closely related polyploids. Many New Zealand genera have a complex evolutionary history involving polyploidy. For example, the current sections Schizeilema and Stilbocarpa of the genus Azorella comprise a subalpine lineage of 17 species in New Zealand (16 species) and Australia (1 species) whose ploidal levels may be 4x, 6x or 10x. Unpublished ITS and plastid phylogenetic trees offer low resolution of New Zealand Azorella species relationships, and suggest that they originated from diploid Azorella species in Chile and Argentina. New phylogenomic data is being generated from low/single copy nuclear genes using the Angiosperm353 bait set. By analyzing data from the Angiosperm353 markers, we aim to 1) setup the pipelines to extract the multiple copies of the targeted genes, which is the critical step yet to be solved; 2) interpret the origins of the polyploid species from the extracted homoeologous sequences; and 3) understand the biogeographic history of Azorella sections Schizeilema and Stilbocarpa. 
- 
 
 ### **Ordering the events in the ancient tree of life with edge length ratio distributions.**
 

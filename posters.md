@@ -105,8 +105,17 @@ Adaptive radiations are a major source of biodiversity, yet few have been studie
 
 ### **13. Congruent birth-death models can be collapsed using Bayesian inference**
 
-Bjørn Tore Kopperud [1]
+Bjørn Tore Kopperud [1], Sebastian Höhna [1,2]
 
 [1] GeoBio-Center Ludwig-Maximilians-Universität München, 80333 Munich, Germany
 
 The discovery of congruent sets of birth-death processes has raised a series of questions as to what diversification patterns we can infer from phylogenetic trees. Many phylogenetic trees are estimated solely from extant samples and no information about extinction. For such systems, there exists a class of models that are all equally likely, and thus are statistically unidentifiable. However, the general behaviour for such classes is not well known. We simulate a series of phylogenetic trees, both within and across congruence classes, and explore their properties using state of the art Bayesian inference methods. Results show that diversification rates inferred using Bayesian shrinkage priors produce not an arbitrary model from the congruence class. Bayesian shrinkage priors collapses the congruence class to a single, simplest model in accordance with the prior expectations. Thus, diversification rate can be inferred from molecular phylogenies when realistic priors are used.
+
+### **14. Phylogenomic analysis of New Zealand polyploid Azorella (Apiaceae)**
+
+**Weixuan Ning** [1], Heidi Meudt [2], Jennifer Tate [1]
+
+[1] School of Fundamental Sciences, Massey University, [2] Museum of New Zealand Te Papa Tongarewa, New Zealand
+
+When using high copy nuclear gene markers such as ITS (internal transcribed spacer, nuclear ribosomal DNA, nrDNA) or plastid regions, phylogenetic inference of closely related plant species with reticulate evolutionary histories are challenging. This is because ITS can be subjected to concerted evolution and commonly used plastid markers have few informative sites. Newer approaches use target enrichment sequencing of low/single copy nuclear genes (LCNG) by the universal Angiosperm353 bait set, and this provides a way to capture all copies of the desired genes at low costs. This approach can be particular useful to resolve the phylogenetic relationships of genera that contain many closely related polyploids. Many New Zealand genera have a complex evolutionary history involving polyploidy. For example, the current sections Schizeilema and Stilbocarpa of the genus Azorella comprise a subalpine lineage of 17 species in New Zealand (16 species) and Australia (1 species) whose ploidal levels may be 4x, 6x or 10x. Unpublished ITS and plastid phylogenetic trees offer low resolution of New Zealand Azorella species relationships, and suggest that they originated from diploid Azorella species in Chile and Argentina. New phylogenomic data is being generated from low/single copy nuclear genes using the Angiosperm353 bait set. By analyzing data from the Angiosperm353 markers, we aim to 1) setup the pipelines to extract the multiple copies of the targeted genes, which is the critical step yet to be solved; 2) interpret the origins of the polyploid species from the extracted homoeologous sequences; and 3) understand the biogeographic history of Azorella sections Schizeilema and Stilbocarpa. 
+ 
