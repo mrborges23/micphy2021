@@ -64,5 +64,5 @@ All times are UTC+1 (Vienna local time).
 |15:40-14:00| *Break*|
 |16:00-16:40| TBD |
 |16:40-17:00| Ordering the events in the ancient tree of life with edge length ratio distributions <br/> **Andrew J. Roger**  |
-|17:40-18:00| Discussion group |
+|17:00-17:40| Discussion group |
 |17:40-18:00| Closing session |
