@@ -9,7 +9,7 @@
 |10:00-12:20| Workshop session 1: RevBayes: Bayesian tree estimation<br/>**Sebastian Höhna** |
 |12:20-14:00| *Lunch break* | 
 |13:40-14:00| Opening session |
-|14:00-15:00| Species tree inference under the multispecies coalescent model<br/>**Zihegn Yang**   |
+|14:00-15:00| Species tree inference under the multispecies coalescent model<br/>**Ziheng Yang**   |
 |15:00-15:20| Convergence assessment in Phylogenetics <br/> **Luiza Fabreti** |
 |15:20-15:25| A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
 |15:25-15:30| Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** |
