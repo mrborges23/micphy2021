@@ -1,6 +1,7 @@
 ## Program
 
-<iframe src="http://free.timeanddate.com/clock/i7nme1rc/n259/fc009/tt0/tw0/tm1/ts1/tb2" frameborder="0" width="183" height="18"></iframe>
+<div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/2761369"><span style="color:gray;">Current local time in</span><br />Vienna, Austria</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Europe%2FVienna" width="100%" height="90" frameborder="0" seamless></iframe> </div>
+
 
 **Monday, 15th February 2021**
 
@@ -11,10 +12,10 @@
 |13:40-14:00| Opening session |
 |14:00-15:00| Species tree inference under the multispecies coalescent model<br/>**Ziheng Yang**   |
 |15:00-15:20| Convergence assessment in Phylogenetics <br/> **Luiza Fabreti** |
-|15:20-15:25| A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
+|15:20-15:25| New World primate phylogeny and species boundaries with novel genomic data <br/>  **Mareike C. Janiak** |
 |15:25-15:30| Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** |
 |15:30-15:35| Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data  <br/> **Veronika Bartáková**|
-|15:35-15:40| New World primate phylogeny and species boundaries with novel genomic data <br/>  **Mareike C. Janiak** |
+|15:35-15:40| A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
 |14:00-15:40| Talks |
 |15:40-14:00| *Break*|
 |16:00-16:40| TBD <br/> **Bastien Boussau** |
