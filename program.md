@@ -13,13 +13,13 @@ All times are UTC+1 (Vienna local time).
 |13:40-14:00| Opening session |
 |14:00-15:00| Species tree inference under the multispecies coalescent model<br/>**Zihegn Yang**   |
 |15:00-15:20| Convergence assessment in Phylogenetics <br/>** Luiza Fabreti |
-|15:20-15:40| Flash Talks |
+|15:20-15:40| Flash Talks (4) |
 |14:00-15:40| Talks |
 | Break | | 
 |16:00-16:40| TBD <br/> **Bastien Boussau** |
 |16:40-17:00| sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework <br/>**Giorgio Bianchini** |
 |17:00-17:20| Generalizing Bayesian phylogenetics to infer shared evolutionary events<br/>**Jamie R. Oaks** |
-|17:20-17:40| Flash Talks |
+|17:20-17:40| Flash Talks (4) |
 |17:40-18:40| Poster session 1 |
 
 <br>
@@ -33,7 +33,7 @@ All times are UTC+1 (Vienna local time).
 |14:00-14:40| TBD  <br/> **Carolin Kosiol**  |
 |14:40-15:00| ILS-Aware Analyses of Retroelement Insertions in the Anomaly Zone <br/>  **Erin Molloy** |
 |15:00-15:20| The corrected Synonymous Dinucleotide Usage: a novel framework for quantifying genomic dinucleotide representation <br/>  **Spyros Lytras** |
-|15:20-15:40| Flash Talks |
+|15:20-15:40| Flash Talks (4) |
 
 | Break | |
 |16:00-17:00| TBD <br/> **Tracy Heath**  |
