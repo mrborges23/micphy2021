@@ -15,7 +15,7 @@ All times are UTC+1 (Vienna local time).
 |15:00-15:20| Convergence assessment in Phylogenetics <br/> **Luiza Fabreti** |
 |15:20-15:25| A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
 |15:25-15:30| Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** |
-|15:30-15:35| Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data  <br/> **V. Bartáková**|
+|15:30-15:35| Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data  <br/> **Veronika Bartáková**|
 |15:35-15:40| New World primate phylogeny and species boundaries with novel genomic data <br/>  **Mareike C. Janiak** |
 |14:00-15:40| Talks |
 |15:40-14:00| *Break*|
@@ -41,7 +41,7 @@ All times are UTC+1 (Vienna local time).
 |15:00-15:20| The corrected Synonymous Dinucleotide Usage: a novel framework for quantifying genomic dinucleotide representation <br/>  **Spyros Lytras** |
 |15:20-15:25| Congruent birth-death models can be collapsed using Bayesian inference <br/> **Bjørn Tore Kopperud** |
 |15:25-15:30| Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data <br/>  **Alexandra Tokareva** |
-|15:30-15:35| Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade  <br/> **de Albuquerque, N. R. M.**  |
+|15:30-15:35| Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade  <br/> **Nathalia R. de Albuquerque**  |
 |15:35-15:40| Molecular Evolution of Olfactory Receptors through jawless and jawed fishes <br/> **Liliana Silva**  |
 |15:40-14:00| *Break*|
 |16:00-17:00| TBD <br/> **Tracy Heath**  |
