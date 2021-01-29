@@ -16,7 +16,7 @@ All times are UTC+1 (Vienna local time).
 |15:20-15:40| Flash Talks |
 |14:00-15:40| Talks |
 | Break | | 
-|16:00-16:40| Talks |
+|16:00-16:40| TBD <br/> **Bastien Boussau** |
 |16:40-17:00| Talks |
 |17:00-17:20| Talks |
 |17:20-17:40| Talks |
@@ -35,7 +35,6 @@ All times are UTC+1 (Vienna local time).
 |16:00-17:00| TBD <br/> **Tracy Heath**  |
 |17:00-17:20| Talks |
 |17:20-17:40| Talks |
-
 |17:40-18:40| Poster session 1 |
 
 <br>
