@@ -122,7 +122,7 @@ When using high copy nuclear gene markers such as ITS (internal transcribed spac
 
 ### **15. A comparison of Utility of Target Enrichment (TE) and Double-Digest Restriction Site Associated (ddRAD) sequencing in systematics – a case study of a parapatric species pair of butterflies**
 
-Mukta Joshi [1], Marianne Espeland [2], Vlad Dinca [1], Roger Vila [3], Mohadeseh Tahami [4], Kyung Min Lee [5], Marko Mutanen [1]
+**Mukta Joshi** [1], Marianne Espeland [2], Vlad Dinca [1], Roger Vila [3], Mohadeseh Tahami [4], Kyung Min Lee [5], Marko Mutanen [1]
 
 [1] Ecology and Genetics research Unit, University of Oulu, Finland [2] Zoological Research Museum Alexander Koenig, Leibniz Institute for Animal Biodiversity, Adenauer Allee 160
 53113 Bonn, Germany [3] Institut de Biologia Evolutiva (CSIC-Universitat Pompeu Fabra), Passeig Marítim de la Barceloneta, 37, 08003 Barcelona, Spain, [4] Department of Biological and Environmental Sciences, University of Jyväskylä, Finland [5] Finnish Museum of Natural History, University of Helsinki, Helsinki, Finland
