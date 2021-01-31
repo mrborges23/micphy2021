@@ -1,5 +1,9 @@
 ## Virtual Posters
 
+## Poster session 1
+
+## Poster session 2
+
 
 ### **1. A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data**
 
