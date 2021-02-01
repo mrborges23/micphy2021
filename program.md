@@ -25,7 +25,6 @@
 |15:25-15:30| <span style="color:green">&#9724;</span>Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** |
 |15:30-15:35| <span style="color:green">&#9724;</span>Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data  <br/> **Veronika Bartáková**|
 |15:35-15:40| <span style="color:green">&#9724;</span>A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
-|14:00-15:40| Talks |
 |15:40-14:00| *Break*|
 |16:00-16:40| <span style="color:blue">&#9724;</span>TBD <br/> **Bastien Boussau** |
 |16:40-17:00| <span style="color:orange">&#9724;</span>sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework <br/>**Giorgio Bianchini** |
