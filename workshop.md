@@ -22,6 +22,7 @@ Tutored by [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4) and [C
 Before the course starts, please install the following software on your own computer:
 
 * RevBayes 
+* IQ-Tree
 * Tracer
 * FigTree
 * R or RStudio with the package Rcpp
