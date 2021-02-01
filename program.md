@@ -3,10 +3,10 @@
 <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/2761369"><span style="color:gray;">Current local time in</span><br />Vienna, Austria</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Europe%2FVienna" width="100%" height="90" frameborder="0" seamless></iframe> </div>
 
 
-* <span style="color:red">&#9724;</span> Keynote speaker
-* <span style="color:blue">&#9724;</span> Invited speaker
-* <span style="color:orange">&#9724;</span> Contributed talk
-* <span style="color:green">&#9724;</span> Flash talk
+<span style="color:red">&#9724;</span> Keynote speaker<br/>
+<span style="color:blue">&#9724;</span> Invited speaker<br/>
+<span style="color:orange">&#9724;</span> Contributed talk<br/>
+<span style="color:green">&#9724;</span> Flash talk
 
 
 
