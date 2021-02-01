@@ -11,7 +11,7 @@
 
 
 
-**Monday, 15th February 2021**
+### **Monday, 15th February 2021**
 
 | Time | Event | 
 |---|---|
@@ -38,7 +38,7 @@
 
 <br>
 
-**Tuesday, 16th February 2021**
+### **Tuesday, 16th February 2021**
 
 | Time| Event |
 |---|---|
@@ -59,7 +59,7 @@
 
 <br>
 
-**Wednesday, 17th February 2021**
+### **Wednesday, 17th February 2021**
 
 | Time| Event |
 |---|---|
