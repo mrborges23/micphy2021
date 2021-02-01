@@ -51,7 +51,7 @@
 |15:30-15:35| <span style="color:green">&#9724;</span> Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade  <br/> **Nathalia R. de Albuquerque**  |
 |15:35-15:40| <span style="color:green">&#9724;</span> Molecular Evolution of Olfactory Receptors through jawless and jawed fishes <br/> **Liliana Silva**  |
 |15:40-14:00| *Break*|
-|16:00-17:00| <span style="color:red">&#9724;</span> TBD <br/> **Tracy Heath**  |
+|16:00-17:00| <span style="color:red">&#9724;</span> Bayesian phylogenetic methods for analyzing paleontological and neontological data <br/> **Tracy Heath**  |
 |17:00-17:20| <span style="color:orange">&#9724;</span> Inferring divergence times using a stepwise Bayesian approach<br/> **Allison Yi Hsiang** |
 |17:20-17:40| <span style="color:orange">&#9724;</span> Dating Alphaproteobacteria evolution with eukaryotic fossils <br/> **Sishuo Wang**  |
 |17:40-18:40| [Poster session](posters.md) |
