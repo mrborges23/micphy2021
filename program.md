@@ -5,9 +5,9 @@
 
 <span style="color:red">&#9724;</span> Keynote speaker<br/>
 <span style="color:blue">&#9724;</span> Invited speaker<br/>
-<span style="color:orange">&#9724;</span> Contributed talk<br/>
-<span style="color:green">&#9724;</span> Flash talk<br/>
-<span style="color:gray">&#9724;</span> Workshop session
+<span style="color:orange">&#9724;</span> [Contributed talk](talks.md)<br/>
+<span style="color:green">&#9724;</span> [Flash talk](posters.md)<br/>
+<span style="color:gray">&#9724;</span> [Workshop session](workshop.md)
 
 
 
@@ -54,7 +54,7 @@
 |16:00-17:00| <span style="color:red">&#9724;</span>TBD <br/> **Tracy Heath**  |
 |17:00-17:20| <span style="color:orange">&#9724;</span>Inferring divergence times using a stepwise Bayesian approach<br/> **Allison Yi Hsiang** |
 |17:20-17:40| <span style="color:orange">&#9724;</span>Dating Alphaproteobacteria evolution with eukaryotic fossils <br/> **Sishuo Wang**  |
-|17:40-18:40| *Poster session* |
+|17:40-18:40| [Poster session](posters.md) |
 
 <br>
 
