@@ -3,7 +3,7 @@
 * Ziheng Yang (University College London)
 * Tracy Heath (Iowa State University of Science and Technology)
 * Bastien Boussau  (Université de Lyon)
-* Asger  (Aarhus University)
+* Asger Hobolth (Aarhus University)
 * Carolin Kosiol (University of St Andrews)
 * Carolina Barata (University of St Andrews)
 * Lynette Mikula (University of St Andrews)
