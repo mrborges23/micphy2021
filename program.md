@@ -32,7 +32,7 @@
 |17:20-17:25| <span style="color:green">&#9724;</span> Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST) <br/> **Bojan Papić** |
 |17:25-17:30| <span style="color:green">&#9724;</span> Reconstructing the evolutionary history of a rapid species radiation: the Andean Lupins <br/> **Bruno Nevado**|
 |17:30-17:35| <span style="color:green">&#9724;</span> Patterns of genomic divergence and phylogenomic analyses in a young marine radiation <br/> **Martin Helmkampf** |
-|17:35-17:40| <span style="color:green">&#9724;</span> Impact of the Paleocene–Eocene Thermal Maximum on diversification dynamics in Paederinae rove beetles <br/> **Katarzyna Koszela** |
+|17:35-17:40| <span style="color:green">&#9724;</span> A comparison of utility of target enrichment (TE) and double-digest restriction site associated (ddRAD) sequencing in systematics – a case study of a parapatric species pair of butterflies <br/> **Mukta Joshi** |
 |17:40-18:40| *Discussion group* |
 
 <br>
