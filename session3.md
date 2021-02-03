@@ -30,7 +30,7 @@ alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N)
 ```
 Place the produced alignments inside the **data** folder.
 
-2. Now, open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignments using the ```readCharacterDataDelimited()``` function. This functions requires you to input the number of expected states: these are 10 for PoMoTwo and 16 for PoMoThree.
+2. Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This functions requires you to input the number of expected states: these are 10 for PoMoTwo and 16 for PoMoThree.
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
 ```
@@ -46,10 +46,14 @@ Number of characters:          5000
 Number of included characters: 5000
 Datatype:                      NaturalNumbers
 ```
-
-3. Next we will specify some useful variables based on our dataset. The variable data has member functions that we can use to retrieve information about the dataset. These include, for example, the number of species and the taxa. We will need that taxon information for setting up different parts of our model.
+Next we will specify some useful variables based on our dataset: these include, for example, the number of species and the taxa. We will need that taxon information for setting up different parts of our model.
 
 4. Additionally, we set up a (vector) variable that holds all the moves for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Similarly, we set up a variable for the monitors. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
+```
+moves    = VectorMoves()  
+monitors = VectorMonitors()
+```
+
 
 5. Estimating an unrooted tree under the virtual PoMos requires specification of two main components: (1) the PoMo model and (2) the Tree Topology and Branch Lengths. A given substitution model is defined by its corresponding instantaneous-rate matrix, Q. PoMoTwo and PoMoThree have three free parameters in common: the population size, the allele frequencies and the exchagebilities. PoMoThree additionally has the allele fitnesses, as it accounts for selection. The functions fnReversiblePoMoTwo4N() and fnReversiblePoMoThree4N() will create an instantaneous-rate matrix for a character with n states.
 
