@@ -6,20 +6,15 @@ In this session, we will perform Bayesian phylogenetic inference with the polymo
 
 In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from Prado-Maritinez (2012), and in this tutorial, we will be using a toy example of only 1000 sites. 
 
-First of all, create a folder called "Session_3" and download the following files into it.
+First of all, create a folder called **Session_3** and download the following files into it.
 
-* &#8600;```weighted_sampled_method.cpp```
-* &#8600;```counts_to_pomo_states_converter.R```
-* &#8600;```great_apes_1000.cf```
-
-* &#8600;```great_apes_pomotwo_alignment.txt```
-* &#8600;```great_apes_pomothree_alignment.txt```
-
-* &#8600;```great_apes_pomotwo.Rev```
-* &#8600;```great_apes_pomothree.Rev```
+* [&#8600;```weighted_sampled_method.cpp```](/assets/session3/weighted_sampled_method.cpp)
+* [&#8600;```counts_to_pomo_states_converter.R```](/assets/session3/counts_to_pomo_states_converter.R)
+* [&#8600;```great_apes_1000.cf```](/assets/session3/great_apes_1000.cf)
+* [&#8600;```great_apes_pomotwo.Rev```](/assets/session3/great_apes_pomotwo.Rev)
+* [&#8600;```great_apes_pomothree.Rev```](/assets/session3/great_apes_pomothree.Rev)
 
 Inside this folder, create two more: one called **data** and another called **output**.
-
 
 ### Loading the data
 
@@ -33,7 +28,10 @@ N          <- 10                   # virtual population size
 alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N)
 ```
 
-Place the produced alignments inside the **data** folder.
+Place the produced alignments inside the **data** folder. Your files should reseamble these ones:
+* [&#8600;```great_apes_pomotwo_naturalnumbers.txt```](/assets/session3/great_apes_pomotwo_naturalnumbers.txt)
+* [&#8600;```great_apes_pomothree_naturalnumbers.txt```](/assets/session3/great_apes_pomothree_naturalnumbers.txt)
+
 
 Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
 
@@ -207,5 +205,10 @@ mapTree(trace, file="output/great_apes_pomothree_MAP.tree" )
 
 Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree.
 
+If for some reason your analyses are taking to long to finish, use the following output files:
+* ```great_apes_pomotwo.log```
+* ```great_apes_pomothree.log```
+* ```great_apes_pomotwo_MAP.tree```
+* ```great_apes_pomothree_MAP.tree```
 
 ## Some questions
