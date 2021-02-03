@@ -161,7 +161,7 @@ pomo_model = model(pi)
 
 ## Setting, running and summarizing the MCMC simulation
 
-For our MCMC analysis, we need to set up a vector of monitors to record the states of our Markov chain. irst, we will initialize the model monitor using the mnModel function. This creates a new monitor variable that will output the states for all model parameters when passed into a MCMC function. We will sample every 10th iterate.
+For our MCMC analysis, we need to set up a vector of monitors to record the states of our Markov chain. irst, we will initialize the model monitor using the mnModel function. This creates a new monitor variable that will output the states for all model parameters when passed into a MCMC function. We will sample every 10th iterate and the resulting file can be found in the **output** folder.
 
 ```
 monitors.append( mnModel(filename="output/great_apes_pomothree.log", printgen=10) )
@@ -199,13 +199,13 @@ Apart from the continuous parameters, we need to summarize the trees sampled fro
 trace = readTreeTrace("output/great_apes_pomothree.trees", treetype="non-clock", burnin= 0.2)
 ```
 
-The ```mapTree()``` function will summarize the tree samples and write the maximum a posteriori tree to file:
+The ```mapTree()``` function will summarize the tree samples and write the maximum a posteriori tree to the spcified file. The MAP can be found within the **output** folder. 
 
 ```
-map_tree = mapTree(treetrace,"output/primates_cytb_JC_MAP.tree")
+mapTree(trace, file="output/great_apes_pomothree_MAP.tree" )
 ```
 
-Look at the file called ```output/primates_cytb_JC_MAP.tree``` in FigTree.
+Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree.
 
 
 ## Some questions
