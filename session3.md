@@ -20,6 +20,9 @@ First of all, create a folder called "Session_3" and download the following file
 
 Inside this folder, create two more: one called **data** and another called **output**.
 
+
+### Loading the data
+
 The first step in this tutorial is to convert the allelic counts into PoMo states. As we will be using the virtual PoMos Two and Three, the virtual population sizes are, respectively, 2 and 3. We will be using the sampled-weighted strategy to correct for sampling errors. This script is implemented in **C++**, and we will run it using **R** and the package **Rcpp**.  Open the ```counts_to_pomo_states_converter.R``` file and make the appropriate changes to obtain your PoMo alignments suited for PoMoTwo and PoMoThree. 
 
 ```r
@@ -54,18 +57,67 @@ Datatype:                      NaturalNumbers
 
 Next we will specify some useful variables based on our dataset: these include, for example, the number of species and the taxa. We will need that taxon information for setting up different parts of our model.
 
-Additionally, we set up a (vector) variable that holds all the moves for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Similarly, we set up a variable for the monitors. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
+Additionally, we set up a variable that holds all the moves and monitors for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
 
 ```
 moves    = VectorMoves()  
 monitors = VectorMonitors()
 ```
 
+### Setting up the model and MCMC
 
-Estimating an unrooted tree under the virtual PoMos requires specification of two main components: (1) the PoMo model and (2) the Tree Topology and Branch Lengths. A given substitution model is defined by its corresponding instantaneous-rate matrix, Q. PoMoTwo and PoMoThree have three free parameters in common: the population size, the allele frequencies and the exchagebilities. PoMoThree additionally has the allele fitnesses, as it accounts for selection. The functions fnReversiblePoMoTwo4N() and fnReversiblePoMoThree4N() will create an instantaneous-rate matrix for a character with n states.
+Estimating an unrooted tree under the virtual PoMos requires specification of two main components: 
+* the PoMo model, which in our case is PoMoTwo or PoMoThree 
+* the tree topology and branch lengths.
+
+A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. 
+
+```
+# setting the model of evolution
 
 
+# population size
+
+N <- 10
+
+
+# allele frequencies
+
+pi_prior <- [1,1,1,1]
+pi ~ dnDirichlet(pi_prior)
+moves.append( mvBetaSimplex(pi, weight=2) )
+
+
+# exchangeabilities
+
+for (i in 1:6){
+  rho[i] ~ dnExponential(10.0)
+  moves.append(mvScale( rho[i], weight=2 ))
+}
+
+
+# fitness coefficients
+
+gamma ~ dnExponential(1.0)
+moves.append(mvScale( gamma, weight=2 ))
+phi := [1.0,gamma,gamma,1.0]
+
+
+# rate matrix
+
+Q := fnReversiblePoMoThree4N(N,pi,rho,phi)
+
+```
+
+Each
 The weight specifies how often the move will be applied either on average per iteration or relative to all other moves. 
+
+
+
+
+The functions ```fnReversiblePoMoTwo4N()``` and ```fnReversiblePoMoThree4N()``` will create an instantaneous-rate matrix.
+
+
 
 
 The tree topology and branch lengths are stochastic nodes in our phylogenetic model. We will assume that all possible labeled, unrooted tree topologies have equal probability. Some types of stochastic nodes can be updated by a number of alternative moves. Different moves may explore parameter space in different ways, and it is possible to use multiple different moves for a given parameter to improve mixing (the efficiency of the MCMC simulation). In the case of our unrooted tree topology, for example, we can use both a nearest-neighbor interchange move (mvNNI) and a subtree-prune and regrafting move (mvSPR). These moves do not have tuning parameters associated with them, thus you only need to pass in the topology node and proposal weight.
