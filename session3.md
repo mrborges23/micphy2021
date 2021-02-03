@@ -1,4 +1,5 @@
-## **Session 3**. Bayesian polymorphism-aware phylogenetic inference
+## **Session 3**<br/>
+Bayesian polymorphism-aware phylogenetic inference
 
 In this session, we will perform Bayesian phylogenetic inference with the polymorphism-aware phylogenetic models. We will learn about the virtual PoMos and how we can account for nucleotide usage bias likely present in our data sets while inferring phylogenetic trees. 
 
@@ -156,7 +157,7 @@ Finally, we wrap the entire model in a single object. To do this, we only need t
 pomo_model = model(pi)
 ```
 
-## Setting, running, and summarizing the MCMC simulation
+### Setting, running, and summarizing the MCMC simulation
 
 For our MCMC analysis, we need to set up a vector of monitors to record the states of our Markov chain. First, we will initialize the model monitor using the ```mnModel``` function. This creates a new monitor variable that will output the states for all model parameters when passed into an MCMC function. We will sample every 10th iterate, and the resulting file can be found in the **output** folder.
 
@@ -208,7 +209,7 @@ Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree. I
 * ```great_apes_pomotwo_MAP.tree```
 * ```great_apes_pomothree_MAP.tree```
 
-## Some questions
+### Some questions
 
-1. What is the GC bias rate coefficient?
-2. 
+1. Is there any evidence of GC-bias in these great apes sequences?
+2. Compare the MAP trees of PoMoTwo and PoMoThree. What are the main differences between them?
