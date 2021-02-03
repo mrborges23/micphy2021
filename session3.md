@@ -136,21 +136,28 @@ Finally, we combine the tree topology and branch lengths. We do this using the `
 psi := treeAssembly(topology, branch_lengths)
 ```
 
-
 We have fully specified all of the parameters of our phylogenetic model:
-* the tree topology with branch lengths
-* the PoMo model that describes how the sequence data evolved over the tree with branch lengths. Collectively, these parameters comprise a distribution called the phylogenetic continuous-time Markov chain, and we use the dnPhyloCTMC constructor function to create this node. This distribution requires several input arguments:
+* the tree with branch lengths;
+* the PoMo instantaneous-rate matrix Q;
+* the type of character data.
 
-the tree with branch lengths;
-the instantaneous-rate matrix Q;
-the type of character data.
+Collectively, these parameters comprise a distribution called the phylogenetic continuous-time Markov chain, and we use the ```dnPhyloCTMC``` constructor function to create this node. This distribution requires several input arguments:
+```
+sequences ~ dnPhyloCTMC(psi,Q=Q,type="NaturalNumbers")
+```
 
+Once the PhyloCTMC model has been created, we can attach our sequence data to the tip nodes in the tree. Note that although we assume that our sequence data are random variables, they are realizations of our phylogenetic model. For the purposes of inference, we assume that the sequence data are *clamped* to their observed values.
 
-Once the PhyloCTMC model has been created, we can attach our sequence data to the tip nodes in the tree.
+```
+sequences.clamp(data)
+```
 
-Note that although we assume that our sequence data are random variables—they are realizations of our phylogenetic model—for the purposes of inference, we assume that the sequence data are “clamped” to their observed values. When this function is called, RevBayes sets each of the stochastic nodes representing the tips of the tree to the corresponding nucleotide sequence in the alignment. This essentially tells the program that we have observed data for the sequences at the tips.
+When this function is called, RevBayes sets each of the stochastic nodes representing the tips of the tree to the corresponding nucleotide sequence in the alignment. This essentially tells the program that we have observed data for the sequences at the tips.
 
-Finally, we wrap the entire model in a single object to provide convenient access to the DAG. To do this, we only need to give the model() function a single node. With this node, the model() function can find all of the other nodes by following the arrows in the graphical model:
+Finally, we wrap the entire model in a single object. To do this, we only need to give the ```model()``` function a single node.
+```
+pomo_model = model(pi)
+```
 
 # Setting, running and summarizing the MCMC simulation
 
