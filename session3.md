@@ -4,7 +4,7 @@ In this session, we will perform Bayesian phylogenetic inference with the polymo
 
 * &#8600; Theoretical_part
 
-In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from Prado-Maritinez (2012), and in this tutorial, we will be using a toy example of only 1000 sites. 
+In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from [Prado-Maritinez (2013)](https://www.nature.com/articles/nature12228), and in this tutorial, we will be using a toy example of only 1000 sites. 
 
 First of all, create a folder called **Session_3** and download the following files into it.
 
@@ -33,7 +33,7 @@ Place the produced alignments inside the **data** folder. Your files should rese
 * [&#8600;```great_apes_pomothree_naturalnumbers.txt```](/assets/session3/great_apes_pomothree_naturalnumbers.txt)
 
 
-Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
+Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. Then, run revbayes by typing ```./rb``` in the console. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
 
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
@@ -68,7 +68,7 @@ Estimating an unrooted tree under the virtual PoMos requires specifying two main
 * the PoMo model, which in our case is PoMoTwo or PoMoThree 
 * the tree topology and branch lengths.
 
-A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. 
+A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. We additional defined ```gamma``` which represents the GC-bias rate, i.e., the preference of GC alleles over AT alleles due to GC-bias gene conversion.
 
 
 ```N``` is taken as a fixed variable, and we set it to 10 to simplify the analyses. We could have fixed this value to 10 000 for the great apes or even consider it following a particular distribution. 
@@ -79,7 +79,7 @@ N <- 10
 ```
 
 
-Since ```pi```, ```rho``` and ```phi``` are stochastic variables, we need to specify a move to propose updates to it. A good move on variables drawn from a Dirichlet distribution (i.e., ```pi```) is the ```mvBetaSimplex```. This move randomly takes an element from the simplex, proposes a new value for it drawn from a Beta distribution, and then rescales all values to sum to 1 again. 
+Since ```pi```, ```rho``` and ```gamma``` are stochastic variables, we need to specify a move to propose updates to it. A good move on variables drawn from a Dirichlet distribution (i.e., ```pi```) is the ```mvBetaSimplex```. This move randomly takes an element from the simplex, proposes a new value for it drawn from a Beta distribution, and then rescales all values to sum to 1 again. 
 
 ```
 # allele frequencies
@@ -88,7 +88,7 @@ pi ~ dnDirichlet(pi_prior)
 moves.append( mvBetaSimplex(pi, weight=2) )
 ```
 
-The ```rho``` and ```phi``` parameters must be a positive real number and a natural choice as the prior distribution is the exponential one. Again, we need to specify a move for this new stochastic variable, and a simple scaling move ```mvScale``` typically works. The weight option inside the moves specifies how often the move will be applied either on average per iteration or relative to all other moves. 
+The ```rho``` and ```gamma``` parameters must be a positive real number and a natural choice as the prior distribution is the exponential one. Again, we need to specify a move for this new stochastic variable, and a simple scaling move ```mvScale``` typically works. The weight option inside the moves specifies how often the move will be applied either on average per iteration or relative to all other moves. 
 
 ```
 # exchangeabilities
@@ -212,3 +212,6 @@ If for some reason your analyses are taking to long to finish, use the following
 * ```great_apes_pomothree_MAP.tree```
 
 ## Some questions
+
+1. What is the GC bias rate coefficient?
+2. 
