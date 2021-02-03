@@ -4,7 +4,7 @@ In this session, we will perform Bayesian phylogenetic inference with the polymo
 
 * &#8600; Theoretical_part
 
-In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from [Prado-Maritinez (2013)](https://www.nature.com/articles/nature12228), and in this tutorial, we will be using a toy example of only 1000 sites. 
+In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from [Prado-Martinez (2013)](https://www.nature.com/articles/nature12228), and in this tutorial, we will be using a toy example of only 1000 sites. 
 
 First of all, create a folder called **Session_3** and download the following files into it.
 
@@ -33,7 +33,7 @@ Place the produced alignments inside the **data** folder. Your files should rese
 * [&#8600;```great_apes_pomothree_naturalnumbers.txt```](/assets/session3/great_apes_pomothree_naturalnumbers.txt)
 
 
-Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. Then, run revbayes by typing ```./rb``` in the console. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
+Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. Then, run **RevBayes** by typing ```./rb``` in the console. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
 
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
