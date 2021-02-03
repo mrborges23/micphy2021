@@ -8,11 +8,11 @@ Registration is now closed!
 
 Before the course starts, please install the following software on your own computer:
 
-* RevBayes. For this workshop, we will be using the dev_PoMo branch, where the polymorphism-aware models are all available. Make sure you follow these [intructions](revbayes.md) to install RevBayes. 
+* RevBayes. For this workshop, we will be using the dev_PoMo RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. 
 * [IQ-Tree](http://www.iqtree.org/)
 * [Tracer](https://beast.community/tracer)
 * [FigTree](https://beast.community/figtree)
-* [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package Rcpp
+* [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
 * A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, vim, or emacs. Word is not a good text editor!
 
 ### Sessions

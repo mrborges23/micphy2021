@@ -28,7 +28,7 @@ N          <- 10                   # virtual population size
 alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N)
 ```
 
-Place the produced alignments inside the **data** folder. Your files should reseamble these ones:
+Place the produced alignments inside the **data** folder. Your files should resemble these ones:
 * [&#8600;```great_apes_pomotwo_naturalnumbers.txt```](/assets/session3/great_apes_pomotwo_naturalnumbers.txt)
 * [&#8600;```great_apes_pomothree_naturalnumbers.txt```](/assets/session3/great_apes_pomothree_naturalnumbers.txt)
 
@@ -68,8 +68,7 @@ Estimating an unrooted tree under the virtual PoMos requires specifying two main
 * the PoMo model, which in our case is PoMoTwo or PoMoThree 
 * the tree topology and branch lengths.
 
-A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. We additional defined ```gamma``` which represents the GC-bias rate, i.e., the preference of GC alleles over AT alleles due to GC-bias gene conversion.
-
+A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. We additionally defined ```gamma``` which represents the GC-bias rate, i.e., the preference of GC alleles over AT alleles due to GC-bias gene conversion.
 
 ```N``` is taken as a fixed variable, and we set it to 10 to simplify the analyses. We could have fixed this value to 10 000 for the great apes or even consider it following a particular distribution. 
 
@@ -88,7 +87,7 @@ pi ~ dnDirichlet(pi_prior)
 moves.append( mvBetaSimplex(pi, weight=2) )
 ```
 
-The ```rho``` and ```gamma``` parameters must be a positive real number and a natural choice as the prior distribution is the exponential one. Again, we need to specify a move for this new stochastic variable, and a simple scaling move ```mvScale``` typically works. The weight option inside the moves specifies how often the move will be applied either on average per iteration or relative to all other moves. 
+The ```rho``` and ```gamma``` parameters must be a positive real number, and a natural choice as the prior distribution is the exponential one. Again, we need to specify a move for this new stochastic variable, and a simple scaling move ```mvScale``` typically works. The weight option inside the moves specifies how often the move will be applied either on average per iteration or relative to all other moves. 
 
 ```
 # exchangeabilities
@@ -189,7 +188,9 @@ Now, run the MCMC.
 pomo_mcmc.run( generations=10000 )
 ```
 
-When the analysis is complete, you will have the monitored files in your output directory. Programs like **Tracer** allow evaluating mixing and non-convergence. Look at the file called ```output/great_apes_pomothree.log``` in **Tracer**. There you see the posterior distribution of the continuous parameters.
+When the analysis is complete, you will have the monitored files in your output directory. Programs like **Tracer** allow evaluating mixing and non-convergence. Look at the file called ```output/great_apes_pomothree.log``` in **Tracer**. There you see the posterior distribution of the continuous parameters. If your analyses are taking too long to finish, you can use the following output files:
+* ```great_apes_pomotwo.log```
+* ```great_apes_pomothree.log```
 
 Apart from the continuous parameters, we need to summarize the trees sampled from the posterior distribution. RevBayes can summarize the sampled trees by reading in the tree-trace file:
 
@@ -203,11 +204,7 @@ The ```mapTree()``` function will summarize the tree samples and write the maxim
 mapTree(trace, file="output/great_apes_pomothree_MAP.tree" )
 ```
 
-Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree.
-
-If for some reason your analyses are taking to long to finish, use the following output files:
-* ```great_apes_pomotwo.log```
-* ```great_apes_pomothree.log```
+Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree. If your analyses are taking too long to finish, you can use the following output MAP trees:
 * ```great_apes_pomotwo_MAP.tree```
 * ```great_apes_pomothree_MAP.tree```
 
