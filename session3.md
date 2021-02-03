@@ -64,7 +64,7 @@ moves    = VectorMoves()
 monitors = VectorMonitors()
 ```
 
-### Setting up the model and MCMC
+### Setting up the model
 
 Estimating an unrooted tree under the virtual PoMos requires specification of two main components: 
 * the PoMo model, which in our case is PoMoTwo or PoMoThree 
@@ -72,63 +72,74 @@ Estimating an unrooted tree under the virtual PoMos requires specification of tw
 
 A given PoMo model is defined by its corresponding instantaneous-rate matrix, ```Q```. PoMoTwo and PoMoThree have three free parameters in common: the population size ```N```, the allele frequencies ```pi``` and the exchangeabilities ```rho```. PoMoThree additionally includes the allele fitnesses ```phi```, as it accounts for selection. 
 
+
+```N``` is taken as a fixed variable and we set it to 10 to simplify the analyses. For the great apes, we could have fixed this value to 10 000, or even consider it follows a certain distribution. 
+
 ```
-# setting the model of evolution
-
-
 # population size
-
 N <- 10
+```
 
 
+Since ```pi```, ```rho``` and ```phi``` are stochastic variables, we need to specify a move to propose updates to it. A good move on variables drawn from a Dirichlet distribution (i.e., ```pi```) is the ```mvBetaSimplex```. This move randomly takes an element from the simplex, proposes a new value for it drawn from a Beta distribution, and then rescales all values of the simplex to sum to 1 again. 
+
+```
 # allele frequencies
-
 pi_prior <- [1,1,1,1]
 pi ~ dnDirichlet(pi_prior)
 moves.append( mvBetaSimplex(pi, weight=2) )
+```
 
+The ```rho``` and ```phi``` parameters must be a positive-real number and a natural choice as the prior distribution is the exponential distribution. Again, we need to specify a move for this new stochastic variable and a simple scaling move ```mvScale``` typically works. The weight option inside the moves specifies how often the move will be applied either on average per iteration or relative to all other moves. 
 
+```
 # exchangeabilities
-
 for (i in 1:6){
   rho[i] ~ dnExponential(10.0)
   moves.append(mvScale( rho[i], weight=2 ))
 }
 
-
 # fitness coefficients
-
 gamma ~ dnExponential(1.0)
 moves.append(mvScale( gamma, weight=2 ))
 phi := [1.0,gamma,gamma,1.0]
-
-
-# rate matrix
-
-Q := fnReversiblePoMoThree4N(N,pi,rho,phi)
-
 ```
-
-Each
-The weight specifies how often the move will be applied either on average per iteration or relative to all other moves. 
-
-
-
 
 The functions ```fnReversiblePoMoTwo4N()``` and ```fnReversiblePoMoThree4N()``` will create an instantaneous-rate matrix.
 
+```
+# rate matrix
+Q := fnReversiblePoMoThree4N(N,pi,rho,phi)
+```
+
+The tree topology and branch lengths are stochastic nodes in our phylogenetic model. We will assume that all possible labeled, unrooted tree topologies have equal probability. In the case of our unrooted tree topology, for example, we can use both a nearest-neighbor interchange move (mvNNI) and a subtree-prune and regrafting move (mvSPR).
+
+```
+# topology
+topology ~ dnUniformTopology(taxa)
+moves.append( mvNNI(topology, weight=2*n_taxa) )
+```
+
+Next, we have to create a stochastic node representing the length of each of the ```2*n_taxa−3``` branches in our tree. We can do this using a for loop. In this loop, we can create each of the branch-length nodes and assign each move.
+
+```
+# branch lengths
+for (i in 1:n_branches) {
+   branch_lengths[i] ~ dnExponential(10.0)
+   moves.append( mvScale(branch_lengths[i]) )
+}
+```
+
+Finally, we combine the tree topology and branch lengths. We do this using the ```treeAssembly()``` function, which applies the value of the ith member of the ```branch_lengths``` vector to the branch leading to the ith node in topology. Thus, the psi variable is a deterministic node:
+
+```
+psi := treeAssembly(topology, branch_lengths)
+```
 
 
-
-The tree topology and branch lengths are stochastic nodes in our phylogenetic model. We will assume that all possible labeled, unrooted tree topologies have equal probability. Some types of stochastic nodes can be updated by a number of alternative moves. Different moves may explore parameter space in different ways, and it is possible to use multiple different moves for a given parameter to improve mixing (the efficiency of the MCMC simulation). In the case of our unrooted tree topology, for example, we can use both a nearest-neighbor interchange move (mvNNI) and a subtree-prune and regrafting move (mvSPR). These moves do not have tuning parameters associated with them, thus you only need to pass in the topology node and proposal weight.
-
-
-
-
-Finally, we combine the tree topology and branch lengths. We do this using the ```treeAssembly()``` function, which applies the value of the ith member of the br_lens vector to the branch leading to the ith node in topology. Thus, the psi variable is a deterministic node:
-
-
-We have fully specified all of the parameters of our phylogenetic model—the tree topology with branch lengths, and the substitution model that describes how the sequence data evolved over the tree with branch lengths. Collectively, these parameters comprise a distribution called the phylogenetic continuous-time Markov chain, and we use the dnPhyloCTMC constructor function to create this node. This distribution requires several input arguments:
+We have fully specified all of the parameters of our phylogenetic model:
+* the tree topology with branch lengths
+* the PoMo model that describes how the sequence data evolved over the tree with branch lengths. Collectively, these parameters comprise a distribution called the phylogenetic continuous-time Markov chain, and we use the dnPhyloCTMC constructor function to create this node. This distribution requires several input arguments:
 
 the tree with branch lengths;
 the instantaneous-rate matrix Q;
@@ -140,6 +151,8 @@ Once the PhyloCTMC model has been created, we can attach our sequence data to th
 Note that although we assume that our sequence data are random variables—they are realizations of our phylogenetic model—for the purposes of inference, we assume that the sequence data are “clamped” to their observed values. When this function is called, RevBayes sets each of the stochastic nodes representing the tips of the tree to the corresponding nucleotide sequence in the alignment. This essentially tells the program that we have observed data for the sequences at the tips.
 
 Finally, we wrap the entire model in a single object to provide convenient access to the DAG. To do this, we only need to give the model() function a single node. With this node, the model() function can find all of the other nodes by following the arrows in the graphical model:
+
+# Setting, running and summarizing the MCMC simulation
 
 
 The mnFile monitor will record the states for only the parameters passed in as arguments. We use this monitor to specify the output for our sampled trees and branch lengths.
