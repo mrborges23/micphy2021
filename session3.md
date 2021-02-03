@@ -8,15 +8,15 @@ In this tutorial, we will infer the evolutionary history of 12 great apes popula
 
 First of all, create a folder called "Session_3" and download the following files into it.
 
-* ```weighted_sampled_method.cpp```
-* ```counts_to_pomo_states_converter.R```
-* ```great_apes_1000.cf```
+* &#8600;```weighted_sampled_method.cpp```
+* &#8600;```counts_to_pomo_states_converter.R```
+* &#8600;```great_apes_1000.cf```
 
-* ```great_apes_pomotwo_alignment.txt```
-* ```great_apes_pomothree_alignment.txt```
+* &#8600;```great_apes_pomotwo_alignment.txt```
+* &#8600;```great_apes_pomothree_alignment.txt```
 
-* ```great_apes_pomotwo.Rev```
-* ```great_apes_pomothree.Rev```
+* &#8600;```great_apes_pomotwo.Rev```
+* &#8600;```great_apes_pomothree.Rev```
 
 Inside this folder, create two more: one called **data** and another called **output**.
 
@@ -159,15 +159,53 @@ Finally, we wrap the entire model in a single object. To do this, we only need t
 pomo_model = model(pi)
 ```
 
-# Setting, running and summarizing the MCMC simulation
+## Setting, running and summarizing the MCMC simulation
+
+For our MCMC analysis, we need to set up a vector of monitors to record the states of our Markov chain. irst, we will initialize the model monitor using the mnModel function. This creates a new monitor variable that will output the states for all model parameters when passed into a MCMC function. We will sample every 10th iterate.
+
+```
+monitors.append( mnModel(filename="output/great_apes_pomothree.log", printgen=10) )
+```
+
+The mnFile monitor will record the states for only the parameters passed in as arguments. We use this monitor to specify the output for our sampled trees and branch lengths. Again, we sample every 10th iterate.
+
+```
+monitors.append( mnFile(filename="output/great_apes_pomothree.trees", printgen=10, psi) )
+```
+
+Finally, create a screen monitor that will report the states of specified variables to the screen with mnScreen. This monitor mostly helps us to see the progress of the MCMC run.
+
+```
+monitors.append( mnScreen(printgen=10) )
+```
+
+With a fully specified model, a set of monitors, and a set of moves, we can now set up the MCMC algorithm that will sample parameter values in proportion to their posterior probability. The ```mcmc()``` function will create our MCMC object. Furthermore, we will perform and combine two independent MCMC runs to ensure proper convergence.
+
+```
+pomo_mcmc = mcmc(pomo_model, monitors, moves, nruns=2, combine="mixed")
+```
+
+Now, run the MCMC. 
+
+```
+pomo_mcmc.run( generations=10000 )
+```
+
+When the analysis is complete, you will have the monitored files in your output directory. Programs like **Tracer** (Rambaut and Drummond 2011) allow to evaluate mixing and non-convergence. Look at the file called ```output/great_apes_pomothree.log``` in **Tracer**. There you see the posterior distribution of the continuous parameters.
+
+Apart from the continuous parameters, we need to summarize the trees sampled from the posterior distribution. RevBayes can summarize the sampled trees by reading in the tree-trace file:
+
+```
+trace = readTreeTrace("output/great_apes_pomothree.trees", treetype="non-clock", burnin= 0.2)
+```
+
+The ```mapTree()``` function will summarize the tree samples and write the maximum a posteriori tree to file:
+
+```
+map_tree = mapTree(treetrace,"output/primates_cytb_JC_MAP.tree")
+```
+
+Look at the file called ```output/primates_cytb_JC_MAP.tree``` in FigTree.
 
 
-The mnFile monitor will record the states for only the parameters passed in as arguments. We use this monitor to specify the output for our sampled trees and branch lengths.
-
-monitors.append( mnFile(filename="output/primates_cytb_JC.trees", printgen=10, psi) )
-Finally, create a screen monitor that will report the states of specified variables to the screen with mnScreen:
-
-monitors.append( mnScreen(printgen=100, TL) )
-This monitor mostly helps us to see the progress of the MCMC run.
-
-
+## Some questions
