@@ -20,7 +20,7 @@ First of all, create a folder called "Session_3" and download the following file
 
 Inside this folder, create two more: one called **data** and another called **output**.
 
-1. The first step in this tutorial is to convert the allelic counts into PoMo states. As we will be using the virtual PoMos Two and Three, the virtual population sizes are, respectively, 2 and 3. We will be using the sampled-weighted strategy to correct for sampling errors. This script is implemented in **C++**, and we will run it using **R** and the package **Rcpp**.  Open the ```counts_to_pomo_states_converter.R``` file and make the appropriate changes to obtain your PoMo alignments suited for PoMoTwo and PoMoThree. 
+The first step in this tutorial is to convert the allelic counts into PoMo states. As we will be using the virtual PoMos Two and Three, the virtual population sizes are, respectively, 2 and 3. We will be using the sampled-weighted strategy to correct for sampling errors. This script is implemented in **C++**, and we will run it using **R** and the package **Rcpp**.  Open the ```counts_to_pomo_states_converter.R``` file and make the appropriate changes to obtain your PoMo alignments suited for PoMoTwo and PoMoThree. 
 
 ```r
 count_file <- "count_file.txt"     # count file
@@ -32,7 +32,7 @@ alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N)
 
 Place the produced alignments inside the **data** folder.
 
-2. Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This functions requires you to input the number of expected states: these are 10 for PoMoTwo and 16 for PoMoThree.
+Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This functions requires you to input the number of expected states: these are 10 for PoMoTwo and 16 for PoMoThree.
 
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
@@ -54,7 +54,7 @@ Datatype:                      NaturalNumbers
 
 Next we will specify some useful variables based on our dataset: these include, for example, the number of species and the taxa. We will need that taxon information for setting up different parts of our model.
 
-4. Additionally, we set up a (vector) variable that holds all the moves for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Similarly, we set up a variable for the monitors. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
+Additionally, we set up a (vector) variable that holds all the moves for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Similarly, we set up a variable for the monitors. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
 
 ```
 moves    = VectorMoves()  
@@ -62,18 +62,18 @@ monitors = VectorMonitors()
 ```
 
 
-5. Estimating an unrooted tree under the virtual PoMos requires specification of two main components: (1) the PoMo model and (2) the Tree Topology and Branch Lengths. A given substitution model is defined by its corresponding instantaneous-rate matrix, Q. PoMoTwo and PoMoThree have three free parameters in common: the population size, the allele frequencies and the exchagebilities. PoMoThree additionally has the allele fitnesses, as it accounts for selection. The functions fnReversiblePoMoTwo4N() and fnReversiblePoMoThree4N() will create an instantaneous-rate matrix for a character with n states.
+Estimating an unrooted tree under the virtual PoMos requires specification of two main components: (1) the PoMo model and (2) the Tree Topology and Branch Lengths. A given substitution model is defined by its corresponding instantaneous-rate matrix, Q. PoMoTwo and PoMoThree have three free parameters in common: the population size, the allele frequencies and the exchagebilities. PoMoThree additionally has the allele fitnesses, as it accounts for selection. The functions fnReversiblePoMoTwo4N() and fnReversiblePoMoThree4N() will create an instantaneous-rate matrix for a character with n states.
 
 
 The weight specifies how often the move will be applied either on average per iteration or relative to all other moves. 
 
 
-6. The tree topology and branch lengths are stochastic nodes in our phylogenetic model. We will assume that all possible labeled, unrooted tree topologies have equal probability. Some types of stochastic nodes can be updated by a number of alternative moves. Different moves may explore parameter space in different ways, and it is possible to use multiple different moves for a given parameter to improve mixing (the efficiency of the MCMC simulation). In the case of our unrooted tree topology, for example, we can use both a nearest-neighbor interchange move (mvNNI) and a subtree-prune and regrafting move (mvSPR). These moves do not have tuning parameters associated with them, thus you only need to pass in the topology node and proposal weight.
+The tree topology and branch lengths are stochastic nodes in our phylogenetic model. We will assume that all possible labeled, unrooted tree topologies have equal probability. Some types of stochastic nodes can be updated by a number of alternative moves. Different moves may explore parameter space in different ways, and it is possible to use multiple different moves for a given parameter to improve mixing (the efficiency of the MCMC simulation). In the case of our unrooted tree topology, for example, we can use both a nearest-neighbor interchange move (mvNNI) and a subtree-prune and regrafting move (mvSPR). These moves do not have tuning parameters associated with them, thus you only need to pass in the topology node and proposal weight.
 
 
 
 
-7. Finally, we combine the tree topology and branch lengths. We do this using the ```treeAssembly()``` function, which applies the value of the ith member of the br_lens vector to the branch leading to the ith node in topology. Thus, the psi variable is a deterministic node:
+Finally, we combine the tree topology and branch lengths. We do this using the ```treeAssembly()``` function, which applies the value of the ith member of the br_lens vector to the branch leading to the ith node in topology. Thus, the psi variable is a deterministic node:
 
 
 We have fully specified all of the parameters of our phylogenetic model—the tree topology with branch lengths, and the substitution model that describes how the sequence data evolved over the tree with branch lengths. Collectively, these parameters comprise a distribution called the phylogenetic continuous-time Markov chain, and we use the dnPhyloCTMC constructor function to create this node. This distribution requires several input arguments:
