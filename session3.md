@@ -1,5 +1,5 @@
-## **Session 3**<br/>
-Bayesian polymorphism-aware phylogenetic inference
+## **Session 3**
+## Bayesian polymorphism-aware phylogenetic inference
 
 In this session, we will perform Bayesian phylogenetic inference with the polymorphism-aware phylogenetic models. We will learn about the virtual PoMos and how we can account for nucleotide usage bias likely present in our data sets while inferring phylogenetic trees. 
 
