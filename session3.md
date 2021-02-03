@@ -21,6 +21,7 @@ First of all, create a folder called "Session_3" and download the following file
 Inside this folder, create two more: one called **data** and another called **output**.
 
 1. The first step in this tutorial is to convert the allelic counts into PoMo states. As we will be using the virtual PoMos Two and Three, the virtual population sizes are, respectively, 2 and 3. We will be using the sampled-weighted strategy to correct for sampling errors. This script is implemented in **C++**, and we will run it using **R** and the package **Rcpp**.  Open the ```counts_to_pomo_states_converter.R``` file and make the appropriate changes to obtain your PoMo alignments suited for PoMoTwo and PoMoThree. 
+
 ```r
 count_file <- "count_file.txt"     # count file
 n_alleles  <- 4                    # the four nucleotide bases A, C, G and T
@@ -28,27 +29,33 @@ N          <- 10                   # virtual population size
 
 alignment <- counts_to_pomo_states_converter(count_file,n_alleles,N)
 ```
+
 Place the produced alignments inside the **data** folder.
 
 2. Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited()``` function. This functions requires you to input the number of expected states: these are 10 for PoMoTwo and 16 for PoMoThree.
+
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
 ```
+
 Information about the alignment can be obtained by typing ```data``` (o whatever name you have identified the alignment).
+
 ```
 >data
-NaturalNumbers character matrix with 12 taxa and 5000 characters
+NaturalNumbers character matrix with 12 taxa and 1000 characters
 ================================================================
 Origination:                   
 Number of taxa:                12
 Number of included taxa:       12
-Number of characters:          5000
-Number of included characters: 5000
+Number of characters:          1000
+Number of included characters: 1000
 Datatype:                      NaturalNumbers
 ```
+
 Next we will specify some useful variables based on our dataset: these include, for example, the number of species and the taxa. We will need that taxon information for setting up different parts of our model.
 
 4. Additionally, we set up a (vector) variable that holds all the moves for our analysis. Recall that moves are algorithms used to propose new parameter values during the MCMC simulation. Similarly, we set up a variable for the monitors. Monitors print the values of model parameters to the screen and/or log files during the MCMC analysis.
+
 ```
 moves    = VectorMoves()  
 monitors = VectorMonitors()
