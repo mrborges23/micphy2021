@@ -15,6 +15,8 @@ navigation:
     url: talks
   - title: Virtual posters
     url: posters
+  - title: Discussion group
+    url: discussiongroup  
   - title: Scientific committee
     url: scientific_committee
   - title: Organizing committee
