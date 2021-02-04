@@ -15,7 +15,7 @@
 
 | Time | Event | 
 |---|---|
-|09:40-10:00| Workshop welcome session |
+|09:40-10:00| *Workshop welcome session* |
 |10:00-12:20| <span style="color:gray">&#9724;</span> Workshop session 1: RevBayes: Bayesian tree estimation<br/>**Sebastian Höhna** |
 |12:20-14:00| *Lunch break* | 
 |13:40-14:00| *Opening session* |
@@ -33,7 +33,7 @@
 |17:25-17:30| <span style="color:green">&#9724;</span> Reconstructing the evolutionary history of a rapid species radiation: the Andean Lupins <br/> **Bruno Nevado**|
 |17:30-17:35| <span style="color:green">&#9724;</span> Patterns of genomic divergence and phylogenomic analyses in a young marine radiation <br/> **Martin Helmkampf** |
 |17:35-17:40| <span style="color:green">&#9724;</span> A comparison of utility of target enrichment (TE) and double-digest restriction site associated (ddRAD) sequencing in systematics – a case study of a parapatric species pair of butterflies <br/> **Mukta Joshi** |
-|17:40-18:40| *Discussion group* |
+|17:40-18:40| [Discussion group](discussiongroup.md): **Challenges and problems in phylogenomics**  |
 
 <br>
 
