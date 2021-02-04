@@ -34,7 +34,7 @@ Place the produced alignments inside the **data** folder. Your files should rese
 * [&#8600;```great_apes_pomothree_naturalnumbers.txt```](/assets/session3/great_apes_pomothree_naturalnumbers.txt)
 
 
-Open the terminal and place it on your working directory **Session_3**. Make sure your **RevBayes** executable (i.e., ```./rb``` or ```./rb-mpi```) is inside the **Session_3*** folder. Run **RevBayes** by typing ```./rb``` (or ```./rb-mpi```) in the console. Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
+Open the terminal and place it on your working directory **Session_3**. Make sure your **RevBayes** executable (i.e., ```./rb``` or ```./rb-mpi```) is inside the **Session_3** folder. Run **RevBayes** by typing ```./rb``` (or ```./rb-mpi```) in the console. Open the ```great_apes_pomothree.Rev``` file using an appropriate text editor. First load in the PoMo alignment using the ```readCharacterDataDelimited``` function. This function requires you to input the number of expected states: 10 for PoMoTwo and 16 for PoMoThree.
 
 ```
 data <- readCharacterDataDelimited("data/great_apes_pomothree_naturalnumbers.txt", stateLabels=16, type="NaturalNumbers", delimiter=" ", headers=FALSE)
