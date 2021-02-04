@@ -195,8 +195,8 @@ pomo_mcmc.run( generations=10000 )
 ```
 
 When the analysis is complete, you will have the monitored files in your output directory. Programs like **Tracer** allow evaluating convergence and mixing. Look at the file called ```output/great_apes_pomothree.log``` in **Tracer**. There you see the posterior distribution of the continuous parameters. If your analyses are taking too long to finish, you can use the following output files:
-* ```great_apes_pomotwo.log```
-* ```great_apes_pomothree.log```
+* [&#8600;```great_apes_pomotwo.log```](/assets/session3/great_apes_pomotwo.log)
+* [&#8600;```great_apes_pomothree.log```](/assets/session3/great_apes_pomothree.log)
 
 Apart from the continuous parameters, we need to summarize the trees sampled from the posterior distribution. RevBayes can summarize the sampled trees by reading in the tree-trace file:
 
@@ -211,8 +211,8 @@ mapTree(trace, file="output/great_apes_pomothree_MAP.tree" )
 ```
 
 Look at the file called ```output/great_apes_pomothree_MAP.tree``` in FigTree. If your analyses are taking too long to finish, you can use the following output MAP trees:
-* ```great_apes_pomotwo_MAP.tree```
-* ```great_apes_pomothree_MAP.tree```
+* [&#8600;```great_apes_pomotwo_MAP.tree```](/assets/session3/great_apes_pomotwo_MAP.tree)
+* [&#8600;```great_apes_pomothree_MAP.tree```](/assets/session3/great_apes_pomothree_MAP.tree)
 
 ### Some questions
 
