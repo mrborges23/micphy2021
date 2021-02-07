@@ -7,7 +7,7 @@ setwd(getwd())
 library("Rcpp")
 
 # uploading the function counts_to_pomo_states_converter
-sourceCpp("sampled_weighted_method.cpp")
+sourceCpp("weighted_sampled_method.cpp")
 
 count_file <- "great_apes_1000.cf"     # count file
 n_alleles  <- 4                        # the four nucleotide bases A, C, G and T
