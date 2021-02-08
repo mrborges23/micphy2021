@@ -9,7 +9,7 @@ Registration is now closed!
 Before the course starts, please install the following software on your own computer:
 
 * RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. 
-* [IQ-Tree](http://www.iqtree.org/)
+* [IQ-Tree v2.1.2](http://www.iqtree.org/)
 * [Tracer](https://beast.community/tracer)
 * [FigTree](https://github.com/rambaut/figtree/releases)
 * [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
