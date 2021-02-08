@@ -25,7 +25,7 @@
 |15:25-15:30| <span style="color:green">&#9724;</span> Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** |
 |15:30-15:35| <span style="color:green">&#9724;</span> Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data  <br/> **Veronika Bartáková**|
 |15:35-15:40| <span style="color:green">&#9724;</span> A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** |
-|15:40-14:00| *Break*|
+|15:40-16:00| *Break*|
 |16:00-16:40| <span style="color:blue">&#9724;</span> Genome-scale detection of convergent molecular evolution <br/> **Bastien Boussau** |
 |16:40-17:00| <span style="color:orange">&#9724;</span> sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework <br/>**Giorgio Bianchini** |
 |17:00-17:20| <span style="color:orange">&#9724;</span> Generalizing Bayesian phylogenetics to infer shared evolutionary events<br/>**Jamie R. Oaks** |
@@ -51,7 +51,7 @@
 |15:25-15:30| <span style="color:green">&#9724;</span> Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data <br/>  **Alexandra Tokareva** |
 |15:30-15:35| <span style="color:green">&#9724;</span> Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade  <br/> **Nathalia R. de Albuquerque**  |
 |15:35-15:40| <span style="color:green">&#9724;</span> Molecular Evolution of Olfactory Receptors through jawless and jawed fishes <br/> **Liliana Silva**  |
-|15:40-14:00| *Break*|
+|15:40-16:00| *Break*|
 |16:00-17:00| <span style="color:red">&#9724;</span> Bayesian phylogenetic methods for analyzing paleontological and neontological data <br/> **Tracy Heath**  |
 |17:00-17:20| <span style="color:orange">&#9724;</span> Inferring divergence times using a stepwise Bayesian approach<br/> **Allison Yi Hsiang** |
 |17:20-17:40| <span style="color:orange">&#9724;</span> Dating Alphaproteobacteria evolution with eukaryotic fossils <br/> **Sishuo Wang**  |

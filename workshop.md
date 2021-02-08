@@ -11,7 +11,7 @@ Before the course starts, please install the following software on your own comp
 * RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow these [instructions](revbayes.md) to install RevBayes. 
 * [IQ-Tree](http://www.iqtree.org/)
 * [Tracer](https://beast.community/tracer)
-* [FigTree](https://beast.community/figtree)
+* [FigTree](https://github.com/rambaut/figtree/releases)
 * [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
 * A good text editor, such as Sublime Text, NotePad++, Atom, BBEdit, vim, or emacs. Word is not a good text editor!
 
@@ -20,10 +20,8 @@ Before the course starts, please install the following software on your own comp
 * **Session 1**: RevBayes: Bayesian tree estimation<br/>
 Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
 
-
 * **Session 2**: IQ-tree PoMos<br/>
 Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)<br/>
-
 
 * **Session 3**: Bayesian polymorphism-aware phylogenetic inference<br/>
 Tutored by [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4) and [Carolin Kosiol](https://risweb.st-andrews.ac.uk/portal/en/persons/carolin-kosiol(c9f40ab1-9f6d-4739-b827-f572db24bbd5).html) <br/>
