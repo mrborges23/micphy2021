@@ -23,9 +23,10 @@ Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
 * **Session 2**: IQ-tree PoMos<br/>
 Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)<br/>
 
+
 * **Session 3**: Bayesian polymorphism-aware phylogenetic inference<br/>
 Tutored by [Rui Borges](https://www.researchgate.net/profile/Rui_Borges4) and [Carolin Kosiol](https://risweb.st-andrews.ac.uk/portal/en/persons/carolin-kosiol(c9f40ab1-9f6d-4739-b827-f572db24bbd5).html) <br/>
-[Tutorial&#8599;](session3.md)
+[Tutorial&#8599;](session3.md)<br/>
 
 
 ### Participants
