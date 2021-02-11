@@ -229,3 +229,6 @@
 * Aglaia (Cilia) Antoniou (IMBBC, HCMR)
 * Xiang Ji (Tulane University)
 * Gustavo de Miranda (NMNH, Smithsonian)
+* Ferenc Kagan (University of Bergen)
+* Ana Serra Silva (The Natural History Museum, London)
+* José Ramón Pardos (National Museum of Natural Sciences in Madrid)
