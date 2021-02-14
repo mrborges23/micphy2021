@@ -17,7 +17,7 @@
 |---|---|
 |09:40-10:00| *Workshop welcome session* |
 |10:00-12:20| <span style="color:gray">&#9724;</span> Workshop session 1: RevBayes: Bayesian tree estimation<br/>**Sebastian Höhna** |
-|12:20-14:00| *Lunch break* | 
+|12:20-13:40| *Lunch break* | 
 |13:40-14:00| *Opening session* |
 |14:00-15:00| <span style="color:red">&#9724;</span> Species tree inference under the multispecies coalescent model<br/>**Ziheng Yang**   |
 |15:00-15:20| <span style="color:orange">&#9724;</span> Convergence assessment in Phylogenetics <br/> **Luiza Fabreti** |
