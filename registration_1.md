@@ -1,8 +1,5 @@
 ## Registration
 
-Registration is now closed.
-
-<!--
 Registrations for meeting the meeting ang poster contributions will be accepted continuously till the **9th of February 2021**. The deadline for abstracts for contributed talks as well as motivation letters for workshop attendance is the **15th of January 2021**.
 
 Participation at the meeting is free of charge [&#8599;Sponsors](funding.md), but registration is compulsory. 
@@ -21,7 +18,7 @@ Please make sure you follow the guidelines for abstract and motivation letter su
   <br><br>
   Do you want to contribute with an oral/poster presentation? <br>
   <input type="radio" name="question1" value="1"> No <br>
-  <input type="radio" name="question1" value="2"> Yes, oral presentation only <br>
+  <!--<input type="radio" name="question1" value="2"> Yes, oral presentation only <br>
   <input type="radio" name="question1" value="3"> Yes, oral or poster presentation <br>-->
   <input type="radio" name="question1" value="4"> Yes, poster presentation <br><br>
 
@@ -34,7 +31,7 @@ Please make sure you follow the guidelines for abstract and motivation letter su
   <input type="radio" name="question2" value="1"> No <br>
   <input type="radio" name="question2" value="2"> Yes <br><br>
   Motivation letter:<br>
-  <textarea rows="4" cols="50"  maxlength="2000"  name="letter"></textarea> 
+  <textarea rows="4" cols="50"  maxlength="2000"  name="letter"></textarea> -->
 
   <br><br>
   <button type="submit">Send</button>
@@ -63,7 +60,7 @@ Please make sure you follow the guidelines for abstract and motivation letter su
 
 <br>
 
-**Motivation letter to attend the workshop**
+<!--**Motivation letter to attend the workshop**
 * Please explain how topics covered in the workshop are relevant for your research.
 * Preference will be given to participants that are currently performing phylogenomic analysis. 
 * Limit: 2000 characters.-->
