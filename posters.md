@@ -44,7 +44,7 @@ African grass rats of the genus Arvicanthis are an important group of rodents of
 
 The Paleocene-Eocene Thermal Maximum (PETM) has been the most influential climatic warming event of the Cenozoic but its impact on the insect diversification is little known. The main aim of our project is to study the evolutionary response to this event of a mega-diverse insect lineage, the Paederinae rove beetles. Their rich fossil record after PETM could suggest that warming was a driving force for the evolution of this group. To test it, we will build the first largescale phylogeny of Paederinae using morphological data and genomic data of UCEs and use it for exploration of evolutionary patterns. The total-evidence dating approach will be used to jointly estimate phylogenetic relationships and divergence times. Timing the lineage turnover along the tree branches and testing diversification models will allow for assessing the impact of PETM on diversification dynamics of the group and for answering the question if the event is one of the main causes of their current mega-diversity.
 
-### **6.  Molecular Evolution of Olfactory Receptors through jawless and jawed fishes**
+### **6.  [Molecular Evolution of Olfactory Receptors through jawless and jawed fishes](/assets/posters/6.pdf)**
 
 **Liliana Silva** [1,2], Tito Mendes [1,2], Agostinho Antunes [1,2]
 
@@ -52,7 +52,7 @@ The Paleocene-Eocene Thermal Maximum (PETM) has been the most influential climat
 
 Olfactory receptors (ORs) perform a major role in detecting odors, crucial for intra/interspecific communication and species survival. The several ORs classification systems available are full of ambiguities mainly related with existence of a gene repertoire highly diverse and expanded across vertebrate species (the presence of a single intact gene in elephant sharks compared to the more than 1,000 genes in some mammalian species). In fishes, the OR family was characterized in some punctual species but little is known about the gene repertoire in most fishes. The aim was to explore the diversity of OR genes among fish lineages. For that purpose, 37 genomes of jawless and jawed fishes were considered. A gene extraction protocol was applied followed by ML phylogenetic reconstructions. We expected to use new approaches of phylogenetic inference as powerful tools to unravel the ORs classification system and provide an adequate nomenclature since the high diversity of OR gene repertoire across species is a nightmare for traditional phylogenetic inferences methodologies.
 
-### **7. Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST)**
+### **7. (Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST))[/assets/posters/7.pdf]**
 
 **Bojan Papić** [1], Darja Kušar [1]
 
