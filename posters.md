@@ -52,8 +52,7 @@ The Paleocene-Eocene Thermal Maximum (PETM) has been the most influential climat
 
 Olfactory receptors (ORs) perform a major role in detecting odors, crucial for intra/interspecific communication and species survival. The several ORs classification systems available are full of ambiguities mainly related with existence of a gene repertoire highly diverse and expanded across vertebrate species (the presence of a single intact gene in elephant sharks compared to the more than 1,000 genes in some mammalian species). In fishes, the OR family was characterized in some punctual species but little is known about the gene repertoire in most fishes. The aim was to explore the diversity of OR genes among fish lineages. For that purpose, 37 genomes of jawless and jawed fishes were considered. A gene extraction protocol was applied followed by ML phylogenetic reconstructions. We expected to use new approaches of phylogenetic inference as powerful tools to unravel the ORs classification system and provide an adequate nomenclature since the high diversity of OR gene repertoire across species is a nightmare for traditional phylogenetic inferences methodologies.
 
-### **7. (Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing)[/assets/posters/7.pdf]**
-
+### **7. [Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing](/assets/posters/7.pdf)
 **Bojan Papić** [1], Darja Kušar [1]
 
 [1] University of Ljubljana, Veterinary Faculty, Institute of Microbiology and Parasitology, Gerbičeva 60, 1000 Ljubljana
