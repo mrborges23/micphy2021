@@ -27,7 +27,7 @@ Long branch attraction is a well known and problematic artifact in phylogenetic 
 Microsporidia are obligatory intracellular parasites characterized by streamlined genomes. The rapid evolutionary rates of microsporidia, as well as the physiological simplification, made it difficult to position them in the tree of life due to methodological artifacts, such as long-branch attraction. Through phylogenomics it was possible to show that microsporidia are actually derived from very ancestral fungi. Encephalitozoon and Ordospora species are closely related, and their genomes are models for genomic reduction and compaction, as the smallest eukaryotic genome known belongs to Encephalitozoon genus. Here we assembled the genome of new microsporidian species, not yet described and temporarily named FI-F-10, with SPAdes. We obtained an assembled genome size of 2.20 Mb, and protein annotation was performed with Prodigal. A preliminary phylogenomics analysis, with 24 microsporidian lineages, made with RaxML with support statistics of 500 bootstraps replicates positioned FI-F-10 in a basal position in relation to Ordospora colligata clade. We are currently performing a phylogenomics analysis with all microsporidian lineages that have roteomes available in databases, totaling 43 lineages.
 
 
-### **4. Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data**
+### **4. [Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data](/assets/posters/4.pdf)**
 
 **V. Bartáková** [1], D. Mizerovská [1,2], O. Mikula [1], A. Bryjová [1], J. Bryja [1,2]
 
@@ -86,7 +86,7 @@ ove beetles, which includes more than 7,600 species in 225 genera. Despite some 
 With over 80 species described and an estimated age of 2 Myr, Andean Lupinus are amongst the fastest species radiations found in plants. To better understand the evolutionary processes driving this rapid species diversification, we are reconstructing the evolutionary history of this clade using genome-wide data obtained using nextRAD sequencing. So far, we have collected and sequenced around 400 specimens representing 75-80 Andean species. We have also assembled a draft genome of one species in this clade, which will allow us to compare sequence-free and sequence-based assembly of RAD loci for phylogenetic reconstructions. Reconstructing the evolutionary history of this clade will provide insight into both temporal and geographical patterns of diversification during this rapid radiation; and will allow us to test further hypotheses about the role of demography during rapid diversification.
 
 
-### **11. Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa**
+### **11. [Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa](/assets/posters/11.pdf)**
 
 **Rocha S** [1,2], Pérez-Figueroa A [1,2], Lemmon AR [4], Lemmon EM [5],  Tenorio MJ [6], Afonso CM [7], Zardoya R [8], Posada D [1,2,3]
 
