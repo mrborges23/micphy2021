@@ -19,7 +19,9 @@ Before the course starts, please install the following software on your own comp
 
 * **Session 1**: RevBayes: Bayesian tree estimation<br/>
 Tutored by [Sebastian Höhna](https://hoehnalab.github.io//)<br/>
-&#8599;Session materials<br/>
+[&#8600;Part 1. Bayesian inference](/assets/session1/1.pdf)<br/>
+[&#8600;Part 2. RevBayes](/assets/session1/2.pdf)<br/>
+
 
 * **Session 2**: IQ-tree PoMos<br/>
 Tutored by [Dominik Schrempf](http://www.cibiv.at/people/dominik/)<br/>
