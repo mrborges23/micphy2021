@@ -3,7 +3,7 @@
 
 In this session, we will perform Bayesian phylogenetic inference with the polymorphism-aware phylogenetic models. We will learn about the virtual PoMos and how we can account for nucleotide usage bias likely present in our data sets while inferring phylogenetic trees. 
 
-* &#8600; Theoretical_part
+* [&#8600; Theoretical_part](/assets/session3/session_3.pdf)
 
 In this tutorial, we will infer the evolutionary history of 12 great apes populations. The data was taken from [Prado-Martinez (2013)](https://www.nature.com/articles/nature12228), and in this tutorial, we will be using a toy example of only 1000 sites. 
 
