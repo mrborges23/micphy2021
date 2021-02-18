@@ -20,12 +20,12 @@
 |12:20-13:40| *Lunch break* | 
 |13:40-14:00| *Opening session* |
 |           | Session 1 Chair: Rui Borges (Vetmeduni Vienna) |
-|14:00-15:00| <span style="color:red">&#9724;</span> Species tree inference under the multispecies coalescent model<br/>**Ziheng Yang** (University College London)  |
-|15:00-15:20| <span style="color:orange">&#9724;</span> Convergence assessment in Phylogenetics <br/> **Luiza Fabreti** (LMU Munich) |
-|15:20-15:25| <span style="color:green">&#9724;</span> New World primate phylogeny and species boundaries with novel genomic data <br/>  **Mareike C. Janiak** (University of Salford) |
-|15:25-15:30| <span style="color:green">&#9724;</span> Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa <br/> **Sara Rocha** (University of Vigo) |
+|14:00-15:00| <span style="color:red">&#9724;</span> Species tree inference under the multispecies coalescent model [&#x1f3a5;]() <br/>**Ziheng Yang** (University College London)  |
+|15:00-15:20| <span style="color:orange">&#9724;</span> Convergence assessment in Phylogenetics [&#x1f3a5;]() <br/> **Luiza Fabreti** (LMU Munich) |
+|15:20-15:25| <span style="color:green">&#9724;</span> New World primate phylogeny and species boundaries with novel genomic data [&#x1f3a5;](https://youtu.be/srgFFJJKhn0) <br/>  **Mareike C. Janiak** (University of Salford) |
+|15:25-15:30| <span style="color:green">&#9724;</span> Phylogenomic analyses of large-shelled cones from Cabo Verde, West Africa [&#x1f3a5;](https://youtu.be/6IBoE-gPR9k) <br/> **Sara Rocha** (University of Vigo) |
 |15:30-15:35| <span style="color:green">&#9724;</span> Phylogeny and species limits in African grass rats (Muridae: Arvicanthis) using genomic-scale data [&#x1f3a5;](https://youtu.be/_Gpj9YoHy2Y) <br/> **Veronika Bartáková** (Institute of Vertebrate Biology, Czech Academy of Sciences)|
-|15:35-15:40| <span style="color:green">&#9724;</span> A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data <br/> **Ronja Jessica Billenstein** (LMU Munich) |
+|15:35-15:40| <span style="color:green">&#9724;</span> A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data [&#x1f3a5;](https://youtu.be/_gZ2kJhWUeQ) <br/> **Ronja Jessica Billenstein** (LMU Munich) |
 |15:40-16:00| *Break*|
 |           | Session 2 Chair: ‪Gergely Szöllősi‬ (Eötvös University) |
 |16:00-16:40| <span style="color:blue">&#9724;</span> Genome-scale detection of convergent molecular evolution <br/> **Bastien Boussau** (Université de Lyon) |
