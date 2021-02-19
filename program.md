@@ -28,13 +28,13 @@
 |15:35-15:40| <span style="color:green">&#9724;</span> A novel approach combining diffusion approximation and Bayesian skyline plots for inferring demographic histories from SNP data [&#x1f3a5;](https://youtu.be/_gZ2kJhWUeQ) <br/> **Ronja Jessica Billenstein** (LMU Munich) |
 |15:40-16:00| *Break*|
 |           | Session 2 Chair: ‪Gergely Szöllősi‬ (Eötvös University) |
-|16:00-16:40| <span style="color:blue">&#9724;</span> Genome-scale detection of convergent molecular evolution <br/> **Bastien Boussau** (Université de Lyon) |
-|16:40-17:00| <span style="color:orange">&#9724;</span> sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework <br/>**Giorgio Bianchini** (School of Geographical Sciences, University of Bristol, Bristol UK) |
-|17:00-17:20| <span style="color:orange">&#9724;</span> Generalizing Bayesian phylogenetics to infer shared evolutionary events<br/>**Jamie R. Oaks** (Auburn University) |
-|17:20-17:25| <span style="color:green">&#9724;</span> Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST) <br/> **Bojan Papić** (University of Ljubljana Veterinary Faculty) |
-|17:25-17:30| <span style="color:green">&#9724;</span> Reconstructing the evolutionary history of a rapid species radiation: the Andean Lupins <br/> **Bruno Nevado** (CE3C – University of Lisbon) |
-|17:30-17:35| <span style="color:green">&#9724;</span> Patterns of genomic divergence and phylogenomic analyses in a young marine radiation <br/> **Martin Helmkampf** (Leibniz Centre for Tropical Marine Research (ZMT)) |
-|17:35-17:40| <span style="color:green">&#9724;</span> A comparison of utility of target enrichment (TE) and double-digest restriction site associated (ddRAD) sequencing in systematics – a case study of a parapatric species pair of butterflies <br/> **Mukta Joshi** (University of Oulu) |
+|16:00-16:40| <span style="color:blue">&#9724;</span> Genome-scale detection of convergent molecular evolution [&#x1f3a5;](https://youtu.be/ECjLNk2MWoo) <br/> **Bastien Boussau** (Université de Lyon) |
+|16:40-17:00| <span style="color:orange">&#9724;</span> sMap: Evolution of independent, dependent and conditioned discrete characters in a Bayesian framework [&#x1f3a5;](https://youtu.be/femX1xkmMNg) <br/>**Giorgio Bianchini** (School of Geographical Sciences, University of Bristol, Bristol UK) |
+|17:00-17:20| <span style="color:orange">&#9724;</span> Generalizing Bayesian phylogenetics to infer shared evolutionary events [&#x1f3a5;](https://youtu.be/4xzcrkYyriU) <br/>**Jamie R. Oaks** (Auburn University) |
+|17:20-17:25| <span style="color:green">&#9724;</span> Assessment of intra- and inter-outbreak diversity of Paenibacillus larvae by core- and whole-genome multilocus sequence typing (cg/wgMLST) [&#x1f3a5;](https://youtu.be/N6Svpuhlj14) <br/> **Bojan Papić** (University of Ljubljana Veterinary Faculty) |
+|17:25-17:30| <span style="color:green">&#9724;</span> Reconstructing the evolutionary history of a rapid species radiation: the Andean Lupins  <br/> **Bruno Nevado** (CE3C – University of Lisbon) |
+|17:30-17:35| <span style="color:green">&#9724;</span> Patterns of genomic divergence and phylogenomic analyses in a young marine radiation [&#x1f3a5;](https://youtu.be/IUJ7kwyz-qc) <br/> **Martin Helmkampf** (Leibniz Centre for Tropical Marine Research (ZMT)) |
+|17:35-17:40| <span style="color:green">&#9724;</span> A comparison of utility of target enrichment (TE) and double-digest restriction site associated (ddRAD) sequencing in systematics – a case study of a parapatric species pair of butterflies [&#x1f3a5;](https://youtu.be/ajy5p7bAMgU) <br/> **Mukta Joshi** (University of Oulu) |
 |17:40-18:00| *Break* |
 |18:00-19:00| [Discussion group](discussiongroup.md): **Challenges and problems in phylogenomics**  |
 
