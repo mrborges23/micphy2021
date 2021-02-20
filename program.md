@@ -39,7 +39,6 @@
 |18:00-19:00| [Discussion group](discussiongroup.md): **Challenges and problems in phylogenomics**  |
 
 <br>
-
 ### **Tuesday, 16th February 2021**
 
 | Time| Event |
@@ -47,18 +46,18 @@
 |10:00-12:20| <span style="color:gray">&#9724;</span> Workshop session 2: IQ-tree Polymorphism-aware phylogentic models <br/> **Dominik Schrempf** (Eötvös University) |
 |12:20-14:00| *Lunch break* | 
 |           | Session 1 Chair: Asger Hobolth (Aarhus University)  ‪ |
-|14:00-14:40| <span style="color:blue">&#9724;</span> Polymorphism-ware phylogenetic models and their applications  <br/> **Carolin Kosiol** (University of St Andrews)  |
-|14:40-15:00| <span style="color:orange">&#9724;</span> ILS-Aware Analyses of Retroelement Insertions in the Anomaly Zone <br/>  **Erin Molloy** (University of California, Los Angles) |
-|15:00-15:20| <span style="color:orange">&#9724;</span> The corrected Synonymous Dinucleotide Usage: a novel framework for quantifying genomic dinucleotide representation <br/>  **Spyros Lytras** (MRC - University of Glasgow Centre for Virus Research) |
-|15:20-15:25| <span style="color:green">&#9724;</span> Congruent birth-death models can be collapsed using Bayesian inference <br/> **Bjørn Tore Kopperud** (Ludwig-Maximilians-Universität München) |
-|15:25-15:30| <span style="color:green">&#9724;</span> Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data <br/>  **Alexandra Tokareva** (Museum and Institute of Zoology, Poland Academy of Sciences) |
-|15:30-15:35| <span style="color:green">&#9724;</span> Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade  <br/> **Nathalia R. de Albuquerque** (Federal University of Rio Grande do Sul)  |
-|15:35-15:40| <span style="color:green">&#9724;</span> Molecular Evolution of Olfactory Receptors through jawless and jawed fishes <br/> **Liliana Silva** (CIIMAR/FCUP)  |
+|14:00-14:40| <span style="color:blue">&#9724;</span> Polymorphism-ware phylogenetic models and their applications [&#x1f3a5;](https://youtu.be/MJO9KM71Miw)  <br/> **Carolin Kosiol** (University of St Andrews)  |
+|14:40-15:00| <span style="color:orange">&#9724;</span> ILS-Aware Analyses of Retroelement Insertions in the Anomaly Zone [&#x1f3a5;](https://youtu.be/7hEldRsf7-U) <br/>  **Erin Molloy** (University of California, Los Angles) |
+|15:00-15:20| <span style="color:orange">&#9724;</span> The corrected Synonymous Dinucleotide Usage: a novel framework for quantifying genomic dinucleotide representation [&#x1f3a5;](https://youtu.be/2DIGyQSNqI4) <br/>  **Spyros Lytras** (MRC - University of Glasgow Centre for Virus Research) |
+|15:20-15:25| <span style="color:green">&#9724;</span> Congruent birth-death models can be collapsed using Bayesian inference [&#x1f3a5;](https://youtu.be/UJHs0oxN1iw) <br/> **Bjørn Tore Kopperud** (Ludwig-Maximilians-Universität München) |
+|15:25-15:30| <span style="color:green">&#9724;</span> Phylogenetic relationships and evolution of Paederinae rove beetles (Staphylinidae) based on genomic and morphological data [&#x1f3a5;](https://youtu.be/zkQeMtdY5B4) <br/>  **Alexandra Tokareva** (Museum and Institute of Zoology, Poland Academy of Sciences) |
+|15:30-15:35| <span style="color:green">&#9724;</span> Phylogenomics analysis reveals new microsporidian species as the most basal member of Ordospora clade [&#x1f3a5;](https://youtu.be/nIsZQ7-r5uU)  <br/> **Nathalia R. de Albuquerque** (Federal University of Rio Grande do Sul)  |
+|15:35-15:40| <span style="color:green">&#9724;</span> Molecular Evolution of Olfactory Receptors through jawless and jawed fishes [&#x1f3a5;](https://youtu.be/bsPrh98e_os) <br/> **Liliana Silva** (CIIMAR/FCUP)  |
 |15:40-16:00| *Break*|
 |           | Session 2 Chair: Bastien Boussau (Université de Lyon) ‪ |
-|16:00-17:00| <span style="color:red">&#9724;</span> Bayesian phylogenetic methods for analyzing paleontological and neontological data <br/> **Tracy Heath** (Iowa State University of Science and Technology) |
-|17:00-17:20| <span style="color:orange">&#9724;</span> Inferring divergence times using a stepwise Bayesian approach<br/> **Allison Yi Hsiang** (LMU Munich) |
-|17:20-17:40| <span style="color:orange">&#9724;</span> Dating Alphaproteobacteria evolution with eukaryotic fossils <br/> **Sishuo Wang** (The Chinese University of Hong Kong)  |
+|16:00-17:00| <span style="color:red">&#9724;</span> Bayesian phylogenetic methods for analyzing paleontological and neontological data [&#x1f3a5;](https://youtu.be/eOanrvKijd8) <br/> **Tracy Heath** (Iowa State University of Science and Technology) |
+|17:00-17:20| <span style="color:orange">&#9724;</span> Inferring divergence times using a stepwise Bayesian approach [&#x1f3a5;](https://youtu.be/P5E9lKyEKRw) <br/> **Allison Yi Hsiang** (LMU Munich) |
+|17:20-17:40| <span style="color:orange">&#9724;</span> Dating Alphaproteobacteria evolution with eukaryotic fossils [&#x1f3a5;](https://youtu.be/Y9GUD4o_ZpU) <br/> **Sishuo Wang** (The Chinese University of Hong Kong)  |
 |17:40-18:00| *Break* |
 |18:00-19:00| [Poster session](posters.md) |
 
