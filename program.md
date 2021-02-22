@@ -71,10 +71,10 @@
 |12:20-14:00| *Lunch break* | 
 |           | Session 1 Chair: ‪Carolin Kosiol (University of St Andrews) |
 |14:00-14:40| <span style="color:blue">&#9724;</span> Mutational signatures in cancer genomics<br/>**Asger Hobolth** (Aarhus University) |
-|14:40-15:00| <span style="color:orange">&#9724;</span> On the terminal branch length distribution and its application in the singleton density score <br/>**Benjamin Wölfl** (University of Vienna, Institute of Mathematics and Vienna Graduate School of Population Genetics) |
+|14:40-15:00| <span style="color:orange">&#9724;</span> On the terminal branch length distribution and its application in the singleton density score [&#x1f3a5;](https://youtu.be/AW5febR_IdY) <br/>**Benjamin Wölfl** (University of Vienna, Institute of Mathematics and Vienna Graduate School of Population Genetics) |
 |15:00-15:20| <span style="color:orange">&#9724;</span> Placing ancient DNA sequences into reference phylogenies  <br/>**Bianca De Sanctis** (University of Cambridge)  |
 |15:20-15:40| *Break*|
-|15:40-16:00| <span style="color:orange">&#9724;</span> Dissecting genomic determinants of positive selection with an evolution-guided regression model<br/>**Yi-Fei Huang** (Pennsylvania State University) |
-|16:00-16:20| <span style="color:orange">&#9724;</span> Ordering the events in the ancient tree of life with edge length ratio distributions <br/> **Andrew J. Roger** (Dalhousie University)  |
+|15:40-16:00| <span style="color:orange">&#9724;</span> Dissecting genomic determinants of positive selection with an evolution-guided regression model [&#x1f3a5;]() <br/>**Yi-Fei Huang** (Pennsylvania State University) |
+|16:00-16:20| <span style="color:orange">&#9724;</span> Ordering the events in the ancient tree of life with edge length ratio distributions [&#x1f3a5;](https://youtu.be/I0z6WuMIhqw) <br/> **Andrew J. Roger** (Dalhousie University)  |
 |16:20-16:40| *Closing session* |
 
